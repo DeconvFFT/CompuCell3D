@@ -16,6 +16,7 @@ SET(SRCS
 INCLUDE_DIRECTORIES ( 
     ${COMPUCELL3D_SOURCE_DIR}/core
     )
+message(STAUS "system name ${CMAKE_SYSTEM_NAME}")
 
 if(${CMAKE_SYSTEM_NAME} STREQUAL Windows)
    SET(GOMP_LIB )
@@ -26,12 +27,14 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL Windows)
   ADD_STATIC_LIBRARY(Potts3D ${SRCS} LINK_LIBRARIES BasicUtilsStatic
   BoundaryShared
   ${GOMP_LIB}  Field3DStatic PublicUtilitiesStatic UnitsStatic ExpressionEvaluatorShared EXTRA_COMPILER_FLAGS ${OpenMP_CXX_FLAGS})
-
 else(${CMAKE_SYSTEM_NAME} STREQUAL Windows)
 
   ADD_SHARED_LIBRARY(Potts3D ${SRCS} 
   LINK_LIBRARIES 
-  gomp BoundaryShared BasicUtilsShared Field3DShared PublicUtilitiesShared UnitsShared ExpressionEvaluatorShared
+  omp # changed from gomp to omp
+   BoundaryShared BasicUtilsShared Field3DShared PublicUtilitiesShared 
+   #UnitsShared 
+   ExpressionEvaluatorShared
   EXTRA_COMPILER_FLAGS 
   ${OpenMP_CXX_FLAGS})
 

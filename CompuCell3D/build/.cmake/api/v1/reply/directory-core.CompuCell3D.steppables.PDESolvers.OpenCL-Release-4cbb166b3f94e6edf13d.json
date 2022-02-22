@@ -1,0 +1,47 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"core/CompuCell3D/steppables/PDESolvers/OpenCL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/opt/homebrew/cc3d_apple_silicon/lib/site-packages/cc3d/cpp/CompuCell3DSteppables/OpenCL",
+			"paths" : 
+			[
+				"core/CompuCell3D/steppables/PDESolvers/OpenCL/DiffusionKernel.cl",
+				"core/CompuCell3D/steppables/PDESolvers/OpenCL/common.cl",
+				"core/CompuCell3D/steppables/PDESolvers/OpenCL/ImplicitMatrix.cl",
+				"core/CompuCell3D/steppables/PDESolvers/OpenCL/../GPUSolverParams.h",
+				"core/CompuCell3D/steppables/PDESolvers/OpenCL/GPUBoundaryConditions.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/CompuCell3D/steppables/PDESolvers/OpenCL",
+		"source" : "core/CompuCell3D/steppables/PDESolvers/OpenCL"
+	}
+}

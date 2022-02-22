@@ -1,5 +1,5 @@
-#ifndef DIFFUSIONSOLVERFE_H
-#define DIFFUSIONSOLVERFE_H
+#ifndef DiffusionSolverFE_H
+#define DiffusionSolverFE_H
 
 
 #include <CompuCell3D/Steppable.h>
@@ -304,7 +304,7 @@ void DiffusionSolverFE<Cruncher>::CheckConcentrationField(ConcentrationField_t &
 #ifdef _WIN32
 				if(!_finite(val)){
 #else
-				if(!finite(val)){
+				if(!isfinite(val)){
 #endif
 					cerr<<"NaN at position: "<<x<<"x"<<y<<"x"<<z<<endl;
 					continue;

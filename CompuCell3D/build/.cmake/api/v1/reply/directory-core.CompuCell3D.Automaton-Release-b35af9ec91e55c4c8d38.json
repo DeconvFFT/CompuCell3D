@@ -1,0 +1,39 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/CompuCell3D/Automaton/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/CompuCell3D/CompuCell3D/Automaton",
+			"paths" : 
+			[
+				"core/CompuCell3D/Automaton/Automaton.h",
+				"core/CompuCell3D/Automaton/CellTypeDynamicClassNode.h",
+				"core/CompuCell3D/Automaton/CellType.h",
+				"core/CompuCell3D/Automaton/CellTypeNode.h",
+				"core/CompuCell3D/Automaton/Transition.h",
+				"core/CompuCell3D/Automaton/CC3D_Automaton.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/CompuCell3D/Automaton",
+		"source" : "core/CompuCell3D/Automaton"
+	}
+}

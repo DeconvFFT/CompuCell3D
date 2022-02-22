@@ -1,0 +1,41 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/pyinterface/PyPlugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/pyinterface/PyPlugin",
+			"paths" : 
+			[
+				"core/pyinterface/PyPlugin/PyPlugin.h",
+				"core/pyinterface/PyPlugin/PyCompuCellObjAdapter.h",
+				"core/pyinterface/PyPlugin/EnergyFunctionPyWrapper.h",
+				"core/pyinterface/PyPlugin/ChangeWatcherPyWrapper.h",
+				"core/pyinterface/PyPlugin/StepperPyWrapper.h",
+				"core/pyinterface/PyPlugin/TypeChangeWatcherPyWrapper.h",
+				"core/pyinterface/PyPlugin/NeighborFinderParams.h",
+				"core/pyinterface/PyPlugin/PyAttributeAdder.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/pyinterface/PyPlugin",
+		"source" : "core/pyinterface/PyPlugin"
+	}
+}

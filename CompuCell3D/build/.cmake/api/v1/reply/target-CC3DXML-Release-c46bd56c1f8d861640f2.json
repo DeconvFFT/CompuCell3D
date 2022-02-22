@@ -1,0 +1,313 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "core/pyinterface/CC3DXML/_CC3DXML.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"SWIG_ADD_LIBRARY",
+			"install",
+			"target_link_libraries",
+			"SWIG_LINK_LIBRARIES",
+			"add_dependencies",
+			"SET_DIRECTORY_PROPERTIES",
+			"INCLUDE_DIRECTORIES",
+			"set_property",
+			"SWIG_ADD_SOURCE_TO_MODULE"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/UseSWIG.cmake",
+			"core/pyinterface/CC3DXML/CMakeLists.txt",
+			"CMakeLists.txt",
+			"core/CMakeLists.txt",
+			"core/pyinterface/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 905,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1034,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 912,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 166,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 24,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 25,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 26,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 27,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 888,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 717,
+				"parent" : 17
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive   -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : ""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CC3DXML_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/saumyamehta/miniforge3/envs/cc3denv/include/python3.9"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/pyinterface"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/build/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/python3.9/site-packages/numpy/core/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/pyinterface/CC3DXML"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/CompuCell3D"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/XMLUtils"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "BasicUtilsShared::@af37fceaacf5e7607ca7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "XMLUtilsShared::@b25e30ae7e9deab7bef2"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "CC3DXML_swig_compilation::@c6f0246e5a5f79c32d59"
+		}
+	],
+	"id" : "CC3DXML::@c6f0246e5a5f79c32d59",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib/site-packages/cc3d/cpp"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/opt/homebrew/cc3d_apple_silicon"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-L/opt/homebrew/opt/llvm/lib  -undefined dynamic_lookup",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/XMLUtils -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/BasicUtils",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../XMLUtils/libCC3DXMLUtils.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../BasicUtils/libCC3DBasicUtils.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "CC3DXML",
+	"nameOnDisk" : "_CC3DXML.so",
+	"paths" : 
+	{
+		"build" : "core/pyinterface/CC3DXML",
+		"source" : "core/pyinterface/CC3DXML"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/core/pyinterface/CC3DXML/CMakeFiles/CC3DXML.dir/CC3DXMLPYTHON_wrap.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/core/pyinterface/CC3DXML/CC3DXML.py",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

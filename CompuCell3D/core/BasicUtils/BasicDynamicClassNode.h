@@ -40,7 +40,7 @@ public:
   /** 
    * @return The size in bytes of the class which this node represents.
    */
-  virtual unsigned int getSize() const {return (unsigned int)sizeof(T);}
+  virtual size_t getSize() const {return sizeof(T);}
 
   /** 
    * @param x A pointer to an instance of a dynamic class allocated by 

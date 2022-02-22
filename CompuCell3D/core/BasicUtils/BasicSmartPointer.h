@@ -22,13 +22,12 @@
 
 \*******************************************************************/
 
-#include "BasicException.h" 
 
 #ifndef BASICSMARTPOINTER_H
 #define BASICSMARTPOINTER_H
 
 #include "BasicCounter.h"
-
+#include "BasicException.h"
 #include <stdlib.h>
 
 // Forward Delcarations
@@ -227,9 +226,9 @@ public:
    * @return The value of the internal pointer.
    */
   T *adopt() {
-    if (refCounter && refCounter->getCount() > 1)
-      throw BasicException(std::string("BasicSmartPointer: Cannot adopt a") +
-			   "pointer with multiple references!");
+    // if (refCounter && refCounter->getCount() > 1)
+    //   throw BasicException(std::string("BasicSmartPointer: Cannot adopt a") +
+		// 	   "pointer with multiple references!");
 
     if (refCounter) {
       delete refCounter;
@@ -260,9 +259,9 @@ public:
 
 protected:
   void checkPtr() const {
-    if (!ptr)
-      throw 
-	BasicException("BasicSmartPointer: Can't dereference a NULL pointer!");
-  }
+  //   if (!ptr)
+  //     throw 
+	// BasicException("BasicSmartPointer: Can't dereference a NULL pointer!");
+   }
 };
 #endif

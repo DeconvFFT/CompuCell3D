@@ -12,20 +12,20 @@ FIND_PATH(SWIG_DIR
   SWIGConfig.cmake
   /usr/share/swig1.3
   /usr/lib/swig1.3
-  /usr/local/share/swig1.3)
+  /opt/homebrew/share/swig1.3)
 FIND_PATH(SWIG_DIR
   swig.swg
   /usr/share/swig1.3
   /usr/lib/swig1.3
-  /usr/local/share/swig1.3)
+  /opt/homebrew/share/swig1.3)
   
   
 FIND_PATH(SWIG_DIR
   bin/swig
   /usr/share/swig1.3
   /usr/lib/swig1.3
-  /usr/local/share/swig1.3
-  /usr/local/swig
+  /opt/homebrew/share/swig1.3
+  /opt/homebrew/swig
   /opt/local
   )
   
@@ -41,7 +41,7 @@ IF(EXISTS ${SWIG_DIR})
   ELSE(EXISTS ${SWIG_DIR}/SWIGConfig.cmake)
     FIND_PROGRAM(SWIG_EXECUTABLE
       NAMES swig-1.3 swig
-      PATHS ${SWIG_DIR} ${SWIG_DIR}/.. ${SWIG_DIR}/../../bin /usr/bin /usr/local/bin )
+      PATHS ${SWIG_DIR} ${SWIG_DIR}/.. ${SWIG_DIR}/../../bin /usr/bin /opt/homebrew/bin )
     SET(SWIG_USE_FILE ${CMAKE_ROOT}/Modules/UseSWIG.cmake)
   ENDIF(EXISTS ${SWIG_DIR}/SWIGConfig.cmake)
 ENDIF(EXISTS ${SWIG_DIR})

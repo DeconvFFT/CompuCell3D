@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"ADD_HEADERS",
+			"ADD_COMPUCELL3D_STEPPABLE"
+		],
+		"files" : 
+		[
+			"compucell3d_cmake_macros.cmake",
+			"core/CompuCell3D/steppables/Mitosis/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/opt/homebrew/cc3d_apple_silicon/include/CompuCell3D/CompuCell3D/steppables/MitosisSteppable",
+			"paths" : 
+			[
+				"core/CompuCell3D/steppables/Mitosis/MitosisSteppable.h",
+				"core/CompuCell3D/steppables/Mitosis/MitosisSteppableDLLSpecifier.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/CompuCell3D/steppables/Mitosis",
+		"source" : "core/CompuCell3D/steppables/Mitosis"
+	}
+}

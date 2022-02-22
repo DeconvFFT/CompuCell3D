@@ -86,7 +86,7 @@ void FieldWriter::writeFields(std::string _fileName){
 //	    latticeDataWriter->SetFileTypeToBinary();
 //	else
 //	    latticeDataWriter->SetFileTypeToASCII();
-        #ifdef VTK6
+        #if (VTK_MAJOR_VERSION >=9)
             latticeDataWriter->SetInputData(latticeData);
         #else
             latticeDataWriter->SetInput(latticeData);

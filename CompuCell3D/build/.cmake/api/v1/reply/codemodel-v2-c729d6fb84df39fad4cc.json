@@ -1,0 +1,2241 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						84
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "core",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						77,
+						83
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core-Release-eac7e466be7743a8be0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core"
+				},
+				{
+					"build" : "core/BasicUtils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.BasicUtils-Release-b97ca82b3266487c045c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/BasicUtils",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "core/Utils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.Utils-Release-0ce43986507ed7dc323d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/Utils"
+				},
+				{
+					"build" : "core/XMLUtils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.XMLUtils-Release-65d106f4ca0f780e9802.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/XMLUtils",
+					"targetIndexes" : 
+					[
+						81
+					]
+				},
+				{
+					"build" : "core/PublicUtilities",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.PublicUtilities-Release-d1d26c5ab999c33a285b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/PublicUtilities",
+					"targetIndexes" : 
+					[
+						68
+					]
+				},
+				{
+					"build" : "core/muParser",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.muParser-Release-8ce652acf18dc8423e49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/muParser",
+					"targetIndexes" : 
+					[
+						82
+					]
+				},
+				{
+					"build" : "core/muParser/ExpressionEvaluator",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.muParser.ExpressionEvaluator-Release-36c4f459bf583ab13b7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "core/muParser/ExpressionEvaluator",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "core/CompuCell3D",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13,
+						63
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D-Release-47c75c228e4b177daf8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/Field3D",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.Field3D-Release-be0a988e9a7de67f0d12.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/Field3D",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/Automaton",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.Automaton-Release-b35af9ec91e55c4c8d38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/Automaton",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/Boundary",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.Boundary-Release-70bd2b13f29fcc54403c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/Boundary",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/Potts3D",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.Potts3D-Release-2049f581401606a27640.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/Potts3D",
+					"targetIndexes" : 
+					[
+						67
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins",
+					"childIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins-Release-e8538f89709731afc8a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins"
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ImplicitMotility",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ImplicitMotility-Release-3a48dd6d90a5f4c25cab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ImplicitMotility",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/CurvatureCalculator",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.CurvatureCalculator-Release-03c3834b2a771e3cc28e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/CurvatureCalculator",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/OrientedGrowth",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.OrientedGrowth-Release-3694962722bd99987a29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/OrientedGrowth",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ContactOrientation",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ContactOrientation-Release-941cbe4e9fc18cbf96b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ContactOrientation",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/BoundaryMonitor",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.BoundaryMonitor-Release-587db188e2b9973981bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/BoundaryMonitor",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/CellTypeMonitor",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.CellTypeMonitor-Release-938d89d50133f1a6c52a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/CellTypeMonitor",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Polarization23",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Polarization23-Release-f3fb0eb6e08e2c03330e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Polarization23",
+					"targetIndexes" : 
+					[
+						65
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ClusterSurface",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ClusterSurface-Release-5e3c211eed13f20e8ed8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ClusterSurface",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ClusterSurfaceTracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ClusterSurfaceTracker-Release-b5e29b8e49f04659954a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ClusterSurfaceTracker",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/CellType",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.CellType-Release-e5cf00a153a2457a1e70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/CellType",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/VolumeTracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.VolumeTracker-Release-950ea49f9e8a63018799.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/VolumeTracker",
+					"targetIndexes" : 
+					[
+						80
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Volume",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Volume-Release-6b578950dd914442964e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Volume",
+					"targetIndexes" : 
+					[
+						79
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Contact",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Contact-Release-4d21c51834a663a4a56b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Contact",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Surface",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Surface-Release-c936bda0f7dcb4fac808.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Surface",
+					"targetIndexes" : 
+					[
+						75
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/SurfaceTracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.SurfaceTracker-Release-51aaf3e2933d695dfcd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/SurfaceTracker",
+					"targetIndexes" : 
+					[
+						76
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/AdhesionFlex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.AdhesionFlex-Release-32d7a35a5fd5e505a4af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/AdhesionFlex",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Mitosis",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Mitosis-Release-368431c0b047ae79cbf6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Mitosis",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Chemotaxis",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Chemotaxis-Release-bc8c9a0677892efd7098.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Chemotaxis",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ChemotaxisSimple",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ChemotaxisSimple-Release-101620db28a52793b4c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ChemotaxisSimple",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/CenterOfMass",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.CenterOfMass-Release-09d6a21b1c1651129baa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/CenterOfMass",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/MomentOfInertia",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.MomentOfInertia-Release-490b4f262415da65ff74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/MomentOfInertia",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ConvergentExtension",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ConvergentExtension-Release-78bfb3e2fe1cc4f251a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ConvergentExtension",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/NeighborTracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.NeighborTracker-Release-ae9ba25c240335c29205.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/NeighborTracker",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/PDESolverCaller",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.PDESolverCaller-Release-3293613828d27437e510.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/PDESolverCaller",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ContactLocalFlex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ContactLocalFlex-Release-7c5483430d022febcd6c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ContactLocalFlex",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ContactLocalProduct",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ContactLocalProduct-Release-18a918f66be09dae3c3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ContactLocalProduct",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ContactMultiCad",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ContactMultiCad-Release-0ec64c9d989df19d1eb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ContactMultiCad",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/FocalPointPlasticity",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.FocalPointPlasticity-Release-6df818418e043d9b455b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/FocalPointPlasticity",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Curvature",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Curvature-Release-c83a405cb40c4b6d5f70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Curvature",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ChemotaxisDicty",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ChemotaxisDicty-Release-cc540e0b3adb20d45b0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ChemotaxisDicty",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ExternalPotential",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ExternalPotential-Release-059c4b5431f5b3f459b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ExternalPotential",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Compartment",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Compartment-Release-6805dce306459ddf2c76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Compartment",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ContactInternal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ContactInternal-Release-2b6561fbd0fd3a046c23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ContactInternal",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Connectivity",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Connectivity-Release-48062e0892d8637386ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Connectivity",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ConnectivityLocalFlex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ConnectivityLocalFlex-Release-76a104e53da05696a1b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ConnectivityLocalFlex",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ConnectivityGlobal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ConnectivityGlobal-Release-c42a887e3f00114755e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ConnectivityGlobal",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/LengthConstraint",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.LengthConstraint-Release-4138ae09eaa6efe2f452.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/LengthConstraint",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/CellOrientation",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.CellOrientation-Release-719057763ac5dc5dca2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/CellOrientation",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/ElasticityTracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.ElasticityTracker-Release-1475d8f168e2a478f027.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/ElasticityTracker",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Elasticity",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Elasticity-Release-0d99ecc0b49211f4cfeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Elasticity",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/PlasticityTracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.PlasticityTracker-Release-25f5d137303c9993572a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/PlasticityTracker",
+					"targetIndexes" : 
+					[
+						62
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Plasticity",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Plasticity-Release-e5993a5dfd318af369b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Plasticity",
+					"targetIndexes" : 
+					[
+						61
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/OrientedContact",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.OrientedContact-Release-ae9bb0386ba06cb52b2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/OrientedContact",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/PolarizationVector",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.PolarizationVector-Release-5617dc004b08a1ceb472.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/PolarizationVector",
+					"targetIndexes" : 
+					[
+						66
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/PixelTracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.PixelTracker-Release-f760f02328c491373de8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/PixelTracker",
+					"targetIndexes" : 
+					[
+						60
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/BoundaryPixelTracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.BoundaryPixelTracker-Release-e64b60db147f1391a924.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/BoundaryPixelTracker",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/GlobalBoundaryPixelTracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.GlobalBoundaryPixelTracker-Release-5bfbe98c0fb505648948.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/GlobalBoundaryPixelTracker",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Viscosity",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Viscosity-Release-6abe0c0fa102fd912c6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Viscosity",
+					"targetIndexes" : 
+					[
+						78
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/plugins/Secretion",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.plugins.Secretion-Release-7bbd2e786fc6fe453143.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/plugins/Secretion",
+					"targetIndexes" : 
+					[
+						71
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables",
+					"childIndexes" : 
+					[
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables-Release-aa77cb7ed5cf182aacbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables"
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/BiasVectorSteppable",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.BiasVectorSteppable-Release-b321e94aafd049a25057.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/BiasVectorSteppable",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/PIFInitializer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.PIFInitializer-Release-0ba2d3d1e94c0615b345.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/PIFInitializer",
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/PIFDumper",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.PIFDumper-Release-8005942f9e111ccc5074.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/PIFDumper",
+					"targetIndexes" : 
+					[
+						58
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/BlobFieldInitializer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.BlobFieldInitializer-Release-b3704720a8ec7fa43de7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/BlobFieldInitializer",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/UniformFieldInitializer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.UniformFieldInitializer-Release-5b8c98548bd1d82f46c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/UniformFieldInitializer",
+					"targetIndexes" : 
+					[
+						77
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/PDESolvers",
+					"childIndexes" : 
+					[
+						70
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.PDESolvers-Release-351db8761545ee352b90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/PDESolvers",
+					"targetIndexes" : 
+					[
+						57
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/PDESolvers/OpenCL",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.PDESolvers.OpenCL-Release-4cbb166b3f94e6edf13d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 69,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/PDESolvers/OpenCL",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/FoamDataOutput",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.FoamDataOutput-Release-ac51d9c19323ebebe52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/FoamDataOutput",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/BoxWatcher",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.BoxWatcher-Release-76c4d06022aa37bccefd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/BoxWatcher",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/Dicty",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.Dicty-Release-2e951fc808f47af717be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/Dicty",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/Mitosis",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.Mitosis-Release-ad10615883c759a8d038.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/Mitosis",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/ObjInitializer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.ObjInitializer-Release-1e09f04d07658f83eeab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/ObjInitializer",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "core/CompuCell3D/steppables/RandomInitializers",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.CompuCell3D.steppables.RandomInitializers-Release-f39e7b8dd7c88c3ebdb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 0,
+					"source" : "core/CompuCell3D/steppables/RandomInitializers",
+					"targetIndexes" : 
+					[
+						70
+					]
+				},
+				{
+					"build" : "core/pyinterface",
+					"childIndexes" : 
+					[
+						78,
+						79,
+						80,
+						81,
+						82
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.pyinterface-Release-ee6aa63be86dd49b0bc5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "core/pyinterface"
+				},
+				{
+					"build" : "core/pyinterface/CC3DXML",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.pyinterface.CC3DXML-Release-1ad28c25be3e55b7f57d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 1,
+					"source" : "core/pyinterface/CC3DXML",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "core/pyinterface/CompuCellPython",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.pyinterface.CompuCellPython-Release-f1727a9f71086ed122f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 1,
+					"source" : "core/pyinterface/CompuCellPython",
+					"targetIndexes" : 
+					[
+						21,
+						23
+					]
+				},
+				{
+					"build" : "core/pyinterface/PlayerPythonNew",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.pyinterface.PlayerPythonNew-Release-3add812ab7ec3cf3b483.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 1,
+					"source" : "core/pyinterface/PlayerPythonNew",
+					"targetIndexes" : 
+					[
+						42,
+						63,
+						64
+					]
+				},
+				{
+					"build" : "core/pyinterface/SerializerDE",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.pyinterface.SerializerDE-Release-eb12efaf62da6af2e1de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 1,
+					"source" : "core/pyinterface/SerializerDE",
+					"targetIndexes" : 
+					[
+						72,
+						73,
+						74
+					]
+				},
+				{
+					"build" : "core/pyinterface/PyPlugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.pyinterface.PyPlugin-Release-aeccf213e68b3af2c2a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 77,
+					"projectIndex" : 1,
+					"source" : "core/pyinterface/PyPlugin",
+					"targetIndexes" : 
+					[
+						69
+					]
+				},
+				{
+					"build" : "core/post_install_tasks",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core.post_install_tasks-Release-dd2a45b5c8e37d0f73ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/post_install_tasks"
+				},
+				{
+					"build" : "optimization",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-optimization-Release-f8e349bca8a953b54a2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "optimization"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						83,
+						84
+					],
+					"name" : "COMPUCELL3D",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						22,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						65,
+						66,
+						67,
+						68,
+						70,
+						71,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						77,
+						78,
+						79,
+						80,
+						81,
+						82
+					],
+					"name" : "PYINTERFACE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						21,
+						23,
+						42,
+						63,
+						64,
+						69,
+						72,
+						73,
+						74
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 29,
+					"id" : "AdhesionFlexShared::@40dd63be4714f12525cb",
+					"jsonFile" : "target-AdhesionFlexShared-Release-912dd709101cc5303842.json",
+					"name" : "AdhesionFlexShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "AutomatonShared::@7d6764000b03a217008a",
+					"jsonFile" : "target-AutomatonShared-Release-4d2e21901b694399af17.json",
+					"name" : "AutomatonShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "BasicUtilsShared::@af37fceaacf5e7607ca7",
+					"jsonFile" : "target-BasicUtilsShared-Release-c7a82c9cbabfe057e4fd.json",
+					"name" : "BasicUtilsShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "BiasVectorSteppableShared::@e5309a206f59cb2b4acb",
+					"jsonFile" : "target-BiasVectorSteppableShared-Release-7fcbbd9ad4d29b1fe06a.json",
+					"name" : "BiasVectorSteppableShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "BlobFieldInitializerShared::@bffe4052019809247739",
+					"jsonFile" : "target-BlobFieldInitializerShared-Release-a78bc52f423684afc466.json",
+					"name" : "BlobFieldInitializerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "BoundaryMonitorShared::@bfcd3f302debb257d8e4",
+					"jsonFile" : "target-BoundaryMonitorShared-Release-eaad12a0ce83419d1fa8.json",
+					"name" : "BoundaryMonitorShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "BoundaryPixelTrackerShared::@c0d94d974186bd96ee14",
+					"jsonFile" : "target-BoundaryPixelTrackerShared-Release-414d5879bcadc615015a.json",
+					"name" : "BoundaryPixelTrackerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "BoundaryShared::@ae72aad40c329d9c6c55",
+					"jsonFile" : "target-BoundaryShared-Release-d1e6a5b99068b9b24a23.json",
+					"name" : "BoundaryShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "BoxWatcherShared::@fcbe1a044d4d70c9bb71",
+					"jsonFile" : "target-BoxWatcherShared-Release-d852519d81a5cf7fcd29.json",
+					"name" : "BoxWatcherShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 78,
+					"id" : "CC3DXML::@c6f0246e5a5f79c32d59",
+					"jsonFile" : "target-CC3DXML-Release-c46bd56c1f8d861640f2.json",
+					"name" : "CC3DXML",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 78,
+					"id" : "CC3DXML_swig_compilation::@c6f0246e5a5f79c32d59",
+					"jsonFile" : "target-CC3DXML_swig_compilation-Release-6a4199ccd7fb907938c7.json",
+					"name" : "CC3DXML_swig_compilation",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "CellOrientationShared::@3b8a6d48add21b8a4295",
+					"jsonFile" : "target-CellOrientationShared-Release-c86de84919e6a30dfdf1.json",
+					"name" : "CellOrientationShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "CellTypeMonitorShared::@747e839122aa2147b458",
+					"jsonFile" : "target-CellTypeMonitorShared-Release-cf1431b21e401cf3e91f.json",
+					"name" : "CellTypeMonitorShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "CellTypeShared::@7a7fcefaeb97a68fce3f",
+					"jsonFile" : "target-CellTypeShared-Release-cd248682803a8f3da24c.json",
+					"name" : "CellTypeShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "CenterOfMassShared::@f01a0e455dfe90ac93a5",
+					"jsonFile" : "target-CenterOfMassShared-Release-87d553fd6e64c928248e.json",
+					"name" : "CenterOfMassShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "ChemotaxisDictyShared::@680f5bbb822a2053bdb7",
+					"jsonFile" : "target-ChemotaxisDictyShared-Release-b7e97b14a1b731482c53.json",
+					"name" : "ChemotaxisDictyShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ChemotaxisShared::@33c813b55aafdee9fab1",
+					"jsonFile" : "target-ChemotaxisShared-Release-cb523c2bcece3711f874.json",
+					"name" : "ChemotaxisShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "ChemotaxisSimpleShared::@8145b39d804188dbdc7e",
+					"jsonFile" : "target-ChemotaxisSimpleShared-Release-9b964fc87b8b45bc22a9.json",
+					"name" : "ChemotaxisSimpleShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ClusterSurfaceShared::@902d30ee345fe7491377",
+					"jsonFile" : "target-ClusterSurfaceShared-Release-b92b80ca279eb7f8ba65.json",
+					"name" : "ClusterSurfaceShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ClusterSurfaceTrackerShared::@9b4a5792d23eec39f208",
+					"jsonFile" : "target-ClusterSurfaceTrackerShared-Release-158016384fe845076841.json",
+					"name" : "ClusterSurfaceTrackerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "CompartmentShared::@7c8c296ab5157bec5139",
+					"jsonFile" : "target-CompartmentShared-Release-2f5e1a91ab2b964f4afb.json",
+					"name" : "CompartmentShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "CompuCell::@4057de09f9c936eb1903",
+					"jsonFile" : "target-CompuCell-Release-18630c51b79cc7a7bc55.json",
+					"name" : "CompuCell",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "CompuCellLibShared::@c8457079278f2b3c9d47",
+					"jsonFile" : "target-CompuCellLibShared-Release-b56828a047f23f8def45.json",
+					"name" : "CompuCellLibShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "CompuCell_swig_compilation::@4057de09f9c936eb1903",
+					"jsonFile" : "target-CompuCell_swig_compilation-Release-f6915816ed714b330e5d.json",
+					"name" : "CompuCell_swig_compilation",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "ConnectivityGlobalShared::@b4726c6053c06567d434",
+					"jsonFile" : "target-ConnectivityGlobalShared-Release-f674238865d83431e528.json",
+					"name" : "ConnectivityGlobalShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "ConnectivityLocalFlexShared::@5ab5b1ec904fbdffd0e3",
+					"jsonFile" : "target-ConnectivityLocalFlexShared-Release-8179e95dfb50827d5fd7.json",
+					"name" : "ConnectivityLocalFlexShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "ConnectivityShared::@24ebe1a567f02b2b0d40",
+					"jsonFile" : "target-ConnectivityShared-Release-ce753feb075ebf52647c.json",
+					"name" : "ConnectivityShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "ContactInternalShared::@cb23f9a9a57039aeb73c",
+					"jsonFile" : "target-ContactInternalShared-Release-bf778658123032a68dd6.json",
+					"name" : "ContactInternalShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "ContactLocalFlexShared::@23fca49b732f6fbffd5e",
+					"jsonFile" : "target-ContactLocalFlexShared-Release-03a63c365f2f11acbc75.json",
+					"name" : "ContactLocalFlexShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "ContactLocalProductShared::@946bd2fdd709caea41a7",
+					"jsonFile" : "target-ContactLocalProductShared-Release-f9b09d5e9aebb8ea3a9c.json",
+					"name" : "ContactLocalProductShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "ContactMultiCadShared::@5a43f1b3342d54ffa424",
+					"jsonFile" : "target-ContactMultiCadShared-Release-552b8e3c93ee5f20a76e.json",
+					"name" : "ContactMultiCadShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ContactOrientationShared::@51adcab56760038e8b89",
+					"jsonFile" : "target-ContactOrientationShared-Release-9bed65676cd09eff87d6.json",
+					"name" : "ContactOrientationShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ContactShared::@4a797827f1d9269539ea",
+					"jsonFile" : "target-ContactShared-Release-dd540d83228f61549a54.json",
+					"name" : "ContactShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "ConvergentExtensionShared::@7101cf78a83309be1985",
+					"jsonFile" : "target-ConvergentExtensionShared-Release-b2392e9dafeec4ec4db8.json",
+					"name" : "ConvergentExtensionShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "CurvatureCalculatorShared::@dd26685245f375299a31",
+					"jsonFile" : "target-CurvatureCalculatorShared-Release-9d5f77fabb8b7ae7ffc9.json",
+					"name" : "CurvatureCalculatorShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "CurvatureShared::@0f221e204c8604a30e8a",
+					"jsonFile" : "target-CurvatureShared-Release-035b73200ac1515b6cd5.json",
+					"name" : "CurvatureShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 73,
+					"id" : "DictyShared::@402f84e80a844fc08b69",
+					"jsonFile" : "target-DictyShared-Release-bfa99cf8dff52ad87df7.json",
+					"name" : "DictyShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "ElasticityShared::@97ce1245fbd028631de0",
+					"jsonFile" : "target-ElasticityShared-Release-603460caf5ba026e15ed.json",
+					"name" : "ElasticityShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "ElasticityTrackerShared::@7f9d06b303e2aea2e189",
+					"jsonFile" : "target-ElasticityTrackerShared-Release-e91713bc7b2c02d22b45.json",
+					"name" : "ElasticityTrackerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ExpressionEvaluatorShared::@c846dc00ad05e1b360be",
+					"jsonFile" : "target-ExpressionEvaluatorShared-Release-8a7f3413af0dad667ce8.json",
+					"name" : "ExpressionEvaluatorShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "ExternalPotentialShared::@e0499d237488f267b565",
+					"jsonFile" : "target-ExternalPotentialShared-Release-47b874bb373405939a48.json",
+					"name" : "ExternalPotentialShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Field3DShared::@5a448497ee859dc6602d",
+					"jsonFile" : "target-Field3DShared-Release-99d93e6c73892577b9c6.json",
+					"name" : "Field3DShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "FieldExtractor::@df3554218095952f3d3d",
+					"jsonFile" : "target-FieldExtractor-Release-631d7ee17cbf9f6b732c.json",
+					"name" : "FieldExtractor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "FlexibleDiffusionSolverFE_OpenCL::@464b2db4ab6af77ada3a",
+					"jsonFile" : "target-FlexibleDiffusionSolverFE_OpenCL-Release-6341ffcc3c7a6a251abf.json",
+					"name" : "FlexibleDiffusionSolverFE_OpenCL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 71,
+					"id" : "FoamDataOutputShared::@15a5ce0dc2378b5ff913",
+					"jsonFile" : "target-FoamDataOutputShared-Release-46651a96185f9c442b5a.json",
+					"name" : "FoamDataOutputShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "FocalPointPlasticityShared::@89d0781f41c5e4230c40",
+					"jsonFile" : "target-FocalPointPlasticityShared-Release-a7765cccf900218afc32.json",
+					"name" : "FocalPointPlasticityShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 60,
+					"id" : "GlobalBoundaryPixelTrackerShared::@7103f3a9eac094c5ae82",
+					"jsonFile" : "target-GlobalBoundaryPixelTrackerShared-Release-8047f5bd6266635552d4.json",
+					"name" : "GlobalBoundaryPixelTrackerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ImplicitMotilityShared::@d7420072e60c791cf93e",
+					"jsonFile" : "target-ImplicitMotilityShared-Release-5b329cf5993413198b05.json",
+					"name" : "ImplicitMotilityShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "LengthConstraintShared::@99a9ec62f859887cf61e",
+					"jsonFile" : "target-LengthConstraintShared-Release-53d307207572255dd85b.json",
+					"name" : "LengthConstraintShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "MitosisShared::@38273c8295cfbabc8def",
+					"jsonFile" : "target-MitosisShared-Release-de79adbf4a1d61503124.json",
+					"name" : "MitosisShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "MitosisSteppableShared::@dd716d17093ecda49ec6",
+					"jsonFile" : "target-MitosisSteppableShared-Release-8d9c6b7892dbfaf02bea.json",
+					"name" : "MitosisSteppableShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "MomentOfInertiaShared::@67362475adaa9412e640",
+					"jsonFile" : "target-MomentOfInertiaShared-Release-1df7b03ba3ae0781aae8.json",
+					"name" : "MomentOfInertiaShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "NeighborTrackerShared::@3fa8af4b86b059c58ffd",
+					"jsonFile" : "target-NeighborTrackerShared-Release-bf6634fe1a2cad033156.json",
+					"name" : "NeighborTrackerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 75,
+					"id" : "ObjInitializerShared::@4ee1589b5c427bca8ae8",
+					"jsonFile" : "target-ObjInitializerShared-Release-536a1bfbac20b0b91f22.json",
+					"name" : "ObjInitializerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "OrientedContactShared::@d4d159ca74a6bf903b87",
+					"jsonFile" : "target-OrientedContactShared-Release-0a8c7fe980aa90a08530.json",
+					"name" : "OrientedContactShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "OrientedGrowthShared::@dec3738fbfd06711504a",
+					"jsonFile" : "target-OrientedGrowthShared-Release-76cd8befd40c50aa15be.json",
+					"name" : "OrientedGrowthShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "PDESolverCallerShared::@15e8ab0d183721793cde",
+					"jsonFile" : "target-PDESolverCallerShared-Release-73a1b4703c3eb39a6a42.json",
+					"name" : "PDESolverCallerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "PDESolversShared::@90efa7691111af78698e",
+					"jsonFile" : "target-PDESolversShared-Release-d9bfa8ad665089c9febb.json",
+					"name" : "PDESolversShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "PIFDumperShared::@8c9a8fc3f0027d0adf92",
+					"jsonFile" : "target-PIFDumperShared-Release-bf725683d761672aea38.json",
+					"name" : "PIFDumperShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "PIFInitializerShared::@3dbf0f923027f3420bdc",
+					"jsonFile" : "target-PIFInitializerShared-Release-bddf7e7feca20e7d7481.json",
+					"name" : "PIFInitializerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "PixelTrackerShared::@6e5214cf8469aeed8f5a",
+					"jsonFile" : "target-PixelTrackerShared-Release-478a2da188d00fcfcf3b.json",
+					"name" : "PixelTrackerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "PlasticityShared::@c0c9abbc2c55fcf1cc50",
+					"jsonFile" : "target-PlasticityShared-Release-51af4ba588ea73c31025.json",
+					"name" : "PlasticityShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "PlasticityTrackerShared::@0eec3a5123bb4bc9bb0c",
+					"jsonFile" : "target-PlasticityTrackerShared-Release-f197d5ef5f803806f980.json",
+					"name" : "PlasticityTrackerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "PlayerPythonNew::@df3554218095952f3d3d",
+					"jsonFile" : "target-PlayerPythonNew-Release-d0a76fb1b94c41b5b2d8.json",
+					"name" : "PlayerPythonNew",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "PlayerPythonNew_swig_compilation::@df3554218095952f3d3d",
+					"jsonFile" : "target-PlayerPythonNew_swig_compilation-Release-f53e3b814ce1ee78202d.json",
+					"name" : "PlayerPythonNew_swig_compilation",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "Polarization23Shared::@19b3e194ae174fc1452f",
+					"jsonFile" : "target-Polarization23Shared-Release-ad4557fbf6c2e41a5b4c.json",
+					"name" : "Polarization23Shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "PolarizationVectorShared::@99756085e05fee39a4eb",
+					"jsonFile" : "target-PolarizationVectorShared-Release-011f08e4345113ec7f41.json",
+					"name" : "PolarizationVectorShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Potts3DShared::@65ce36ea101936f29846",
+					"jsonFile" : "target-Potts3DShared-Release-0b2729cebb18d38aef8d.json",
+					"name" : "Potts3DShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "PublicUtilitiesShared::@fb5df07fa63f95bc7d68",
+					"jsonFile" : "target-PublicUtilitiesShared-Release-519e4b4d1f8e14f00c9c.json",
+					"name" : "PublicUtilitiesShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "PyPlugin::@dfb14d0c91f0bae4b026",
+					"jsonFile" : "target-PyPlugin-Release-5e4dc5a76caa3df6dd1b.json",
+					"name" : "PyPlugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "RandomInitializersShared::@1cbf72a401f1f63e9011",
+					"jsonFile" : "target-RandomInitializersShared-Release-4695e8ec340e32e3bc39.json",
+					"name" : "RandomInitializersShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "SecretionShared::@749d67640ca53f2d0169",
+					"jsonFile" : "target-SecretionShared-Release-374cfa2d407beb7cfff8.json",
+					"name" : "SecretionShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "SerializerDE::@00dab2345912ab22f05e",
+					"jsonFile" : "target-SerializerDE-Release-9d8cdac7619a1752a761.json",
+					"name" : "SerializerDE",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "SerializerDEPy::@00dab2345912ab22f05e",
+					"jsonFile" : "target-SerializerDEPy-Release-38bcf583be9cc48ea8ad.json",
+					"name" : "SerializerDEPy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "SerializerDEPy_swig_compilation::@00dab2345912ab22f05e",
+					"jsonFile" : "target-SerializerDEPy_swig_compilation-Release-4ba59b7d4c90a425d424.json",
+					"name" : "SerializerDEPy_swig_compilation",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "SurfaceShared::@00d006e2e4458b35f9d0",
+					"jsonFile" : "target-SurfaceShared-Release-49751aca913e860e0e0b.json",
+					"name" : "SurfaceShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "SurfaceTrackerShared::@0c3479072fb575879e0f",
+					"jsonFile" : "target-SurfaceTrackerShared-Release-c479ee317668d13c8215.json",
+					"name" : "SurfaceTrackerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "UniformFieldInitializerShared::@ecfbaacafd3518e49d6e",
+					"jsonFile" : "target-UniformFieldInitializerShared-Release-4c9556d90eb848ba0ce8.json",
+					"name" : "UniformFieldInitializerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "ViscosityShared::@f5b4229739c7441c0a4a",
+					"jsonFile" : "target-ViscosityShared-Release-d1d9c09b06f905b1e68e.json",
+					"name" : "ViscosityShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "VolumeShared::@1bedc732af20c98575f1",
+					"jsonFile" : "target-VolumeShared-Release-e0fdf1b422ef0c91e396.json",
+					"name" : "VolumeShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "VolumeTrackerShared::@4107914c2cfb173e6302",
+					"jsonFile" : "target-VolumeTrackerShared-Release-f751618e6fd7d9abf46b.json",
+					"name" : "VolumeTrackerShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "XMLUtilsShared::@b25e30ae7e9deab7bef2",
+					"jsonFile" : "target-XMLUtilsShared-Release-4d21bbd7917a6a5f9329.json",
+					"name" : "XMLUtilsShared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "muParserShared::@094e4a6d90f5b97ea42d",
+					"jsonFile" : "target-muParserShared-Release-08b72d333711f608e3f7.json",
+					"name" : "muParserShared",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/build",
+		"source" : "/Users/saumyamehta/CompuCell3D/CompuCell3D"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

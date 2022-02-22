@@ -1,0 +1,42 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.environment":{
+        "CC": "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang -fopenmp",
+        "CXX":"/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++ -fopenmp",
+        "CMAKE_OSX_DEPLOYMENT_TARGET": "12.1", 
+        
+        "CONDA_BUILD_SYSROOT": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk",
+       //"LDFLAGS": "/Users/saumyamehta/miniforge3/envs/cc3denv/lib",
+       "DYLD_LIBRARY_PATH": "/Users/saumyamehta/miniforge3/envs/cc3denv/lib"
+       // "CPPFLAGS": "/Users/saumyamehta/miniforge3/envs/cc3denv/include"
+
+    },
+    "cmake.installPrefix":"/opt/homebrew/cc3d_apple_silicon",
+    "cmake.configureSettings":{
+        "CMAKE_PREFIX_PATH": "/Users/saumyamehta/miniforge3/envs/cc3denv",
+        "CMAKE_FIND_ROOT_PATH": "/Users/saumyamehta/miniforge3/envs/cc3denv",
+        //"Python_EXECUTABLE": "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/python3.10",
+        "OpenMP_C_FLAGS": "-fopenmp=libomp",
+         "OpenMP_CXX_FLAGS": "-fopenmp=libomp",
+        "OpenMP_C_INCLUDE_DIR":"/Users/saumyamehta/miniforge3/pkgs/llvm-openmp-12.0.1-hf3c4609_1/include",
+        "OpenMP_CXX_INCLUDE_DIR":"/Users/saumyamehta/miniforge3/pkgs/llvm-openmp-12.0.1-hf3c4609_1/include",
+        "OpenMP_C_LIBRARY":"/Users/saumyamehta/miniforge3/pkgs/llvm-openmp-12.0.1-hf3c4609_1/lib",
+        "OpenMP_CXX_LIBRARY":"/Users/saumyamehta/miniforge3/pkgs/llvm-openmp-12.0.1-hf3c4609_1/lib",
+        "OPENMP_INCLUDES":"/Users/saumyamehta/miniforge3/pkgs/llvm-openmp-12.0.1-hf3c4609_1/include",
+        "OpenMP_omp_LIBRARY":"/Users/saumyamehta/miniforge3/pkgs/llvm-openmp-12.0.1-hf3c4609_1/lib/libomp.dylib",
+        "SWIG_DIR":"/opt/homebrew/Cellar/swig@3/3.0.12/share/swig/3.0.12",
+        "SWIG_EXECUTABLE":"/opt/homebrew/opt/swig@3/bin/swig"
+        //  
+    },
+    "files.associations": {
+        "unit_calculator.h": "c",
+        "unordered_map": "cpp",
+        "utility": "cpp"
+    },
+    // "files.associations": {
+    //     "limits": "cpp",
+    //     "omp.h": "c",
+    //     "iostream": "cpp",
+    //     "map": "cpp"
+    // }
+}

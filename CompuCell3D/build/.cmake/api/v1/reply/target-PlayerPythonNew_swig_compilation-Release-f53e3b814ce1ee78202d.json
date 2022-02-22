@@ -1,0 +1,80 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"SWIG_ADD_LIBRARY"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/UseSWIG.cmake",
+			"core/pyinterface/PlayerPythonNew/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 352,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 911,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "PlayerPythonNew_swig_compilation::@df3554218095952f3d3d",
+	"name" : "PlayerPythonNew_swig_compilation",
+	"paths" : 
+	{
+		"build" : "core/pyinterface/PlayerPythonNew",
+		"source" : "core/pyinterface/PlayerPythonNew"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/core/pyinterface/PlayerPythonNew/CMakeFiles/PlayerPythonNew_swig_compilation",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/core/pyinterface/PlayerPythonNew/CMakeFiles/PlayerPythonNew_swig_compilation.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "core/pyinterface/PlayerPythonNew/PlayerPython.i",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

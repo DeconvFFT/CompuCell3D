@@ -1,5 +1,5 @@
 #INCLUDE_DIRECTORIES(${PYTHON_INCLUDE_PATH})
-#   INCLUDE_DIRECTORIES("/usr/local/include")
+#   INCLUDE_DIRECTORIES("/opt/homebrew/include")
 
 # FIND_PACKAGE(PythonLibs)
 

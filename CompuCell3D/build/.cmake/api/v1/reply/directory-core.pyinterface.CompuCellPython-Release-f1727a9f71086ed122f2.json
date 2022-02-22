@@ -1,0 +1,62 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"core/pyinterface/CompuCellPython/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/site-packages/cc3d/cpp",
+			"paths" : 
+			[
+				"core/pyinterface/CompuCellPython/_CompuCell.so"
+			],
+			"targetId" : "CompuCell::@4057de09f9c936eb1903",
+			"targetIndex" : 21,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/site-packages/cc3d/cpp",
+			"paths" : 
+			[
+				"build/core/pyinterface/CompuCellPython/CompuCell.py"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/pyinterface/CompuCellPython",
+		"source" : "core/pyinterface/CompuCellPython"
+	}
+}

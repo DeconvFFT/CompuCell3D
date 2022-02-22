@@ -1,0 +1,835 @@
+The system is: Darwin - 21.2.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang -fopenmp
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/3.21.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++ -fopenmp
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/3.21.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_250f1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_250f1.dir/build.make CMakeFiles/cmTC_250f1.dir/build
+Building C object CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1   -v -Wl,-v -MD -MT CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -c /Users/saumyamehta/miniforge3/envs/cc3denv/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+clang-13: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -x c /Users/saumyamehta/miniforge3/envs/cc3denv/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_250f1
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_250f1.dir/link.txt --verbose=1
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -o cmTC_250f1 
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_250f1 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -lomp -lSystem
+@(#)PROGRAM:ld  PROJECT:ld64-711
+BUILD 21:57:24 Nov 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/llvm/lib
+	/opt/homebrew/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/homebrew/include]
+    add: [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  end of search list found
+  collapse include dir [/opt/homebrew/include] ==> [/opt/homebrew/include]
+  collapse include dir [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include] ==> [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  implicit include dirs: [/opt/homebrew/include;/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_250f1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_250f1.dir/build.make CMakeFiles/cmTC_250f1.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1   -v -Wl -v -MD -MT CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -c /Users/saumyamehta/miniforge3/envs/cc3denv/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  ignore line: [clang-13: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -x c /Users/saumyamehta/miniforge3/envs/cc3denv/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_250f1]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_250f1.dir/link.txt --verbose=1]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl -v CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -o cmTC_250f1 ]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_250f1 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o -lomp -lSystem]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_250f1] ==> ignore
+    arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_250f1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lomp] ==> lib [omp]
+    arg [-lSystem] ==> lib [System]
+  Library search paths: [;/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: [omp]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_be4f6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_be4f6.dir/build.make CMakeFiles/cmTC_be4f6.dir/build
+Building CXX object CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++  -fopenmp   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1   -v -Wl,-v -MD -MT CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -c /Users/saumyamehta/miniforge3/envs/cc3denv/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+clang-13: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -stdlib=libc++ -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/saumyamehta/miniforge3/envs/cc3denv/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1
+ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_be4f6
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be4f6.dir/link.txt --verbose=1
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++  -fopenmp  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_be4f6 
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_be4f6 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -lomp -lc++ -lSystem
+@(#)PROGRAM:ld  PROJECT:ld64-711
+BUILD 21:57:24 Nov 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/llvm/lib
+	/opt/homebrew/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/homebrew/include]
+    add: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1]
+    add: [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  end of search list found
+  collapse include dir [/opt/homebrew/include] ==> [/opt/homebrew/include]
+  collapse include dir [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1] ==> [/Users/saumyamehta/miniforge3/envs/cc3denv/include/c++/v1]
+  collapse include dir [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include] ==> [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  implicit include dirs: [/opt/homebrew/include;/Users/saumyamehta/miniforge3/envs/cc3denv/include/c++/v1;/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_be4f6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_be4f6.dir/build.make CMakeFiles/cmTC_be4f6.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++  -fopenmp   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1   -v -Wl -v -MD -MT CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -c /Users/saumyamehta/miniforge3/envs/cc3denv/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  ignore line: [clang-13: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -stdlib=libc++ -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/saumyamehta/miniforge3/envs/cc3denv/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1]
+  ignore line: [ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_be4f6]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be4f6.dir/link.txt --verbose=1]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++  -fopenmp  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl -v CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_be4f6 ]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_be4f6 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o -lomp -lc++ -lSystem]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_be4f6] ==> ignore
+    arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_be4f6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lomp] ==> lib [omp]
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+  Library search paths: [;/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: [omp;c++]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f4557/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f4557.dir/build.make CMakeFiles/cmTC_f4557.dir/build
+Building C object CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp   -fopenmp -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -MD -MT CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -c /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+ (in-process)
+ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -x c /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_f4557
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4557.dir/link.txt --verbose=1
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp  -fopenmp -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -o cmTC_f4557  -v -Wl,-v 
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_f4557 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -v -lomp -lSystem
+@(#)PROGRAM:ld  PROJECT:ld64-711
+BUILD 21:57:24 Nov 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/llvm/lib
+	/opt/homebrew/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_f4557/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f4557.dir/build.make CMakeFiles/cmTC_f4557.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp   -fopenmp -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -MD -MT CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -c /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -x c /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_f4557]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4557.dir/link.txt --verbose=1]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp  -fopenmp -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -o cmTC_f4557  -v -Wl -v ]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_f4557 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o -v -lomp -lSystem]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f4557] ==> ignore
+    arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTC_f4557.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-v] ==> ignore
+    arg [-lomp] ==> lib [omp]
+    arg [-lSystem] ==> lib [System]
+  Library search paths: [;/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: [omp]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f46c8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f46c8.dir/build.make CMakeFiles/cmTC_f46c8.dir/build
+Building CXX object CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++  -fopenmp   -mmacosx-version-min=10.6 -O3 -g -fpermissive   -fopenmp -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -std=gnu++11 -MD -MT CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -c /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+ (in-process)
+ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -stdlib=libc++ -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -O3 -std=gnu++11 -fdeprecated-macro -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -x c++ /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1
+ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_f46c8
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f46c8.dir/link.txt --verbose=1
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++  -fopenmp   -mmacosx-version-min=10.6 -O3 -g -fpermissive   -fopenmp -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -o cmTC_f46c8  -v -Wl,-v 
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_f46c8 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -v -lomp -lc++ -lSystem
+@(#)PROGRAM:ld  PROJECT:ld64-711
+BUILD 21:57:24 Nov 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/llvm/lib
+	/opt/homebrew/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_f46c8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f46c8.dir/build.make CMakeFiles/cmTC_f46c8.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++  -fopenmp   -mmacosx-version-min=10.6 -O3 -g -fpermissive   -fopenmp -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -std=gnu++11 -MD -MT CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -c /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -stdlib=libc++ -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -O3 -std=gnu++11 -fdeprecated-macro -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -x c++ /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1]
+  ignore line: [ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_f46c8]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f46c8.dir/link.txt --verbose=1]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++  -fopenmp   -mmacosx-version-min=10.6 -O3 -g -fpermissive   -fopenmp -fopenmp=libomp -v -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -o cmTC_f46c8  -v -Wl -v ]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_f46c8 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o -v -lomp -lc++ -lSystem]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f46c8] ==> ignore
+    arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTC_f46c8.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-v] ==> ignore
+    arg [-lomp] ==> lib [omp]
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+  Library search paths: [;/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: [omp;c++]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89da2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_89da2.dir/build.make CMakeFiles/cmTC_89da2.dir/build
+Building C object CMakeFiles/cmTC_89da2.dir/CheckIncludeFile.c.o
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp   -fopenmp  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -MD -MT CMakeFiles/cmTC_89da2.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_89da2.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_89da2.dir/CheckIncludeFile.c.o -c /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_89da2
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89da2.dir/link.txt --verbose=1
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp  -fopenmp  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_89da2.dir/CheckIncludeFile.c.o -o cmTC_89da2 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ed832/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ed832.dir/build.make CMakeFiles/cmTC_ed832.dir/build
+Building C object CMakeFiles/cmTC_ed832.dir/src.c.o
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp -DCMAKE_HAVE_LIBC_PTHREAD  -fopenmp  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -MD -MT CMakeFiles/cmTC_ed832.dir/src.c.o -MF CMakeFiles/cmTC_ed832.dir/src.c.o.d -o CMakeFiles/cmTC_ed832.dir/src.c.o -c /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ed832
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed832.dir/link.txt --verbose=1
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -fopenmp  -fopenmp  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_ed832.dir/src.c.o -o cmTC_ed832 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The system is: Darwin - 21.2.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/3.22.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++ 
+Build flags: ;;-mmacosx-version-min=10.6;-O3;-g;-fpermissive;;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/3.22.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2bd08/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2bd08.dir/build.make CMakeFiles/cmTC_2bd08.dir/build
+Building C object CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1   -v -Wl,-v -MD -MT CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCCompilerABI.c
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+clang-13: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_2bd08
+/opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bd08.dir/link.txt --verbose=1
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -o cmTC_2bd08 
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_2bd08 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -lSystem
+@(#)PROGRAM:ld  PROJECT:ld64-711
+BUILD 21:57:24 Nov 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/llvm/lib
+	/opt/homebrew/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/homebrew/include]
+    add: [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  end of search list found
+  collapse include dir [/opt/homebrew/include] ==> [/opt/homebrew/include]
+  collapse include dir [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include] ==> [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  implicit include dirs: [/opt/homebrew/include;/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_2bd08/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2bd08.dir/build.make CMakeFiles/cmTC_2bd08.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1   -v -Wl -v -MD -MT CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  ignore line: [clang-13: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_2bd08]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bd08.dir/link.txt --verbose=1]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl -v CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -o cmTC_2bd08 ]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_2bd08 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o -lSystem]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2bd08] ==> ignore
+    arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_2bd08.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+  Library search paths: [;/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_58073/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_58073.dir/build.make CMakeFiles/cmTC_58073.dir/build
+Building CXX object CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++   -mmacosx-version-min=10.6 -O3 -g -fpermissive    -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1   -v -Wl,-v -MD -MT CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+clang-13: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -stdlib=libc++ -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -O3 -fdeprecated-macro -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/include
+ /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1
+ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_58073
+/opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58073.dir/link.txt --verbose=1
+/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++   -mmacosx-version-min=10.6 -O3 -g -fpermissive    -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_58073 
+clang version 13.0.1
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin
+ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_58073 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem
+@(#)PROGRAM:ld  PROJECT:ld64-711
+BUILD 21:57:24 Nov 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/opt/homebrew/opt/llvm/lib
+	/opt/homebrew/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/homebrew/include]
+    add: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1]
+    add: [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  end of search list found
+  collapse include dir [/opt/homebrew/include] ==> [/opt/homebrew/include]
+  collapse include dir [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1] ==> [/Users/saumyamehta/miniforge3/envs/cc3denv/include/c++/v1]
+  collapse include dir [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include] ==> [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  implicit include dirs: [/opt/homebrew/include;/Users/saumyamehta/miniforge3/envs/cc3denv/include/c++/v1;/Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_58073/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_58073.dir/build.make CMakeFiles/cmTC_58073.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++   -mmacosx-version-min=10.6 -O3 -g -fpermissive    -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1   -v -Wl -v -MD -MT CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  ignore line: [clang-13: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang-13" -cc1 -triple arm64-apple-macosx12.1.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 530 -v -fcoverage-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -resource-dir /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/opt/homebrew/include -stdlib=libc++ -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include -O3 -fdeprecated-macro -fdebug-compilation-dir=/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/homebrew/include]
+  ignore line: [ /Users/saumyamehta/miniforge3/envs/cc3denv/bin/../include/c++/v1]
+  ignore line: [ /Users/saumyamehta/miniforge3/envs/cc3denv/lib/clang/13.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_58073]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58073.dir/link.txt --verbose=1]
+  ignore line: [/Users/saumyamehta/miniforge3/envs/cc3denv/bin/clang++   -mmacosx-version-min=10.6 -O3 -g -fpermissive    -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl -v CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_58073 ]
+  ignore line: [clang version 13.0.1]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/saumyamehta/miniforge3/envs/cc3denv/bin]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib -dynamic -arch arm64 -platform_version macos 12.1.0 12.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o cmTC_58073 -L/opt/homebrew/opt/llvm/lib -L/opt/homebrew/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libLTO.13.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.1.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_58073] ==> ignore
+    arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
+    arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_58073.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+  Library search paths: [;/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+  collapse library dir [/opt/homebrew/lib] ==> [/opt/homebrew/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/opt/homebrew/opt/llvm/lib;/opt/homebrew/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+

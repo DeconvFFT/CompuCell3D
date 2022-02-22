@@ -1,0 +1,52 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/CompuCell3D/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/CompuCell3D/CompuCell3D",
+			"paths" : 
+			[
+				"core/CompuCell3D/ClassRegistry.h",
+				"core/CompuCell3D/CompuCellLibDLLSpecifier.h",
+				"core/CompuCell3D/DerivedProperty.h",
+				"core/CompuCell3D/ParseData.h",
+				"core/CompuCell3D/Parser.h",
+				"core/CompuCell3D/ParserStorage.h",
+				"core/CompuCell3D/Plugin.h",
+				"core/CompuCell3D/PluginBase.h",
+				"core/CompuCell3D/PluginManager.h",
+				"core/CompuCell3D/PottsParseData.h",
+				"core/CompuCell3D/Serializer.h",
+				"core/CompuCell3D/SimObject.h",
+				"core/CompuCell3D/Simulator.h",
+				"core/CompuCell3D/SteerableObject.h",
+				"core/CompuCell3D/Steppable.h",
+				"core/CompuCell3D/CC3D.h",
+				"core/CompuCell3D/CC3D_Main.h",
+				"core/CompuCell3D/CC3D_STL.h",
+				"core/CompuCell3D/CC3DEvents.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/CompuCell3D",
+		"source" : "core/CompuCell3D"
+	}
+}

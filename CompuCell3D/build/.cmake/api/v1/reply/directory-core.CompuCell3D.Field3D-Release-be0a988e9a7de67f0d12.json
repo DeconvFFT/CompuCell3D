@@ -1,0 +1,46 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/CompuCell3D/Field3D/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/CompuCell3D/CompuCell3D/Field3D",
+			"paths" : 
+			[
+				"core/CompuCell3D/Field3D/AdjacentNeighbor.h",
+				"core/CompuCell3D/Field3D/Dim3D.h",
+				"core/CompuCell3D/Field3D/Array3D.h",
+				"core/CompuCell3D/Field3D/Field3DChangeWatcher.h",
+				"core/CompuCell3D/Field3D/Field3D.h",
+				"core/CompuCell3D/Field3D/Field3DImpl.h",
+				"core/CompuCell3D/Field3D/Field3DIndex.h",
+				"core/CompuCell3D/Field3D/Field3DIO.h",
+				"core/CompuCell3D/Field3D/NeighborFinder.h",
+				"core/CompuCell3D/Field3D/Neighbor.h",
+				"core/CompuCell3D/Field3D/Point3D.h",
+				"core/CompuCell3D/Field3D/WatchableField3D.h",
+				"core/CompuCell3D/Field3D/CC3D_Field3D.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/CompuCell3D/Field3D",
+		"source" : "core/CompuCell3D/Field3D"
+	}
+}

@@ -109,12 +109,15 @@ bool SerializerDE::serializeCellField(SerializeData &_sd){
 	    fieldDataWriter->SetFileTypeToBinary();
 	else
 	    fieldDataWriter->SetFileTypeToASCII();
-        #ifdef VTK6
+
+		
+        #if (VTK_MAJOR_VERSION >=9)
             fieldDataWriter->SetInputData(fieldData);
         #else
             fieldDataWriter->SetInput(fieldData);
         #endif 
         
+		
 	//int dim[3];
 	//latticeData->GetDimensions(dim);
 	////cerr<<"dim 0="<<dim[0]<<" dim 1="<<dim[1]<<" dim 2="<<dim[2]<<endl;
@@ -257,7 +260,7 @@ bool SerializerDE::serializeConcentrationField(SerializeData &_sd){
 	else
 	    fieldDataWriter->SetFileTypeToASCII();
         
-        #ifdef VTK6
+        #if (VTK_MAJOR_VERSION >=9)
             fieldDataWriter->SetInputData(fieldData);
         #else
             fieldDataWriter->SetInput(fieldData);
@@ -367,7 +370,7 @@ bool SerializerDE::serializeScalarField(SerializeData &_sd){
 	    fieldDataWriter->SetFileTypeToBinary();
 	else
 	    fieldDataWriter->SetFileTypeToASCII();
-        #ifdef VTK6
+        #if (VTK_MAJOR_VERSION >=9)
             fieldDataWriter->SetInputData(fieldData);
         #else
             fieldDataWriter->SetInput(fieldData);
@@ -487,7 +490,7 @@ bool SerializerDE::serializeScalarFieldCellLevel(SerializeData &_sd){
 	    fieldDataWriter->SetFileTypeToBinary();
 	else
 	    fieldDataWriter->SetFileTypeToASCII();
-        #ifdef VTK6
+        #if (VTK_MAJOR_VERSION >=9)
             fieldDataWriter->SetInputData(fieldData);
         #else
             fieldDataWriter->SetInput(fieldData);
@@ -611,7 +614,7 @@ bool SerializerDE::serializeVectorField(SerializeData &_sd){
 	else
 	    fieldDataWriter->SetFileTypeToASCII();
         
-        #ifdef VTK6
+        #if (VTK_MAJOR_VERSION >=9)
             fieldDataWriter->SetInputData(fieldData);
         #else
             fieldDataWriter->SetInput(fieldData);
@@ -736,7 +739,7 @@ bool SerializerDE::serializeVectorFieldCellLevel(SerializeData &_sd){
 	    fieldDataWriter->SetFileTypeToBinary();
 	else
 	    fieldDataWriter->SetFileTypeToASCII();
-        #ifdef VTK6
+        #if (VTK_MAJOR_VERSION >=9)
             fieldDataWriter->SetInputData(fieldData);
         #else
             fieldDataWriter->SetInput(fieldData);

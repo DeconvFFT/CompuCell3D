@@ -83,7 +83,7 @@ else(${CMAKE_SYSTEM_NAME} STREQUAL Windows)
  # XercesUtilsShared
  # XMLCerealShared
   PublicUtilitiesShared
-  UnitsShared
+  #UnitsShared
   AutomatonShared
   BoundaryShared
   Field3DShared

@@ -1,0 +1,35 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/muParser/ExpressionEvaluator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/CompuCell3D/muParser/ExpressionEvaluator",
+			"paths" : 
+			[
+				"core/muParser/ExpressionEvaluator/ExpressionEvaluator.h",
+				"core/muParser/ExpressionEvaluator/ExpressionEvaluatorDLLSpecifier.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/muParser/ExpressionEvaluator",
+		"source" : "core/muParser/ExpressionEvaluator"
+	}
+}

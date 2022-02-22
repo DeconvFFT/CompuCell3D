@@ -1,0 +1,36 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/Utils/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/CompuCell3D/Utils",
+			"paths" : 
+			[
+				"core/Utils/cldeque.h",
+				"core/Utils/Coordinates3D.h",
+				"core/Utils/CC3D_Utils.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/Utils",
+		"source" : "core/Utils"
+	}
+}

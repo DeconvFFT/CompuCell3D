@@ -83,9 +83,9 @@ reactionDiffusion_SavHogSolverProxy("ReactionDiffusionSolverFE_SavHog", "Solves 
  reactionDiffusionSolverProxy("ReactionDiffusionSolverFE", "Solves reaction-diffusion system of equations on the lattice ",
 	     &Simulator::steppableManager);
 
- BasicPluginProxy<Steppable, ReactionDiffusionSolverFVM>
-	 reactionDiffusionFVMSolverProxy("ReactionDiffusionSolverFVM", "Solves reaction-diffusion system of equations on the lattice using the finite volume method",
-		 &Simulator::steppableManager);
+//  BasicPluginProxy<Steppable, ReactionDiffusionSolverFVM>
+// 	 reactionDiffusionFVMSolverProxy("ReactionDiffusionSolverFVM", "Solves reaction-diffusion system of equations on the lattice using the finite volume method",
+// 		 &Simulator::steppableManager);
 
 BasicPluginProxy<Steppable, FlexibleReactionDiffusionSolverFE> 
 flexibleReactionDiffusionSolverProxy("FlexibleReactionDiffusionSolverFE", "Solves reaction-diffusion system of equations on the lattice ",

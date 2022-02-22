@@ -1,0 +1,44 @@
+#!/bin/sh
+
+# echo " "
+# echo " dollar-zero AKA the first argument to this .command script is: "
+# echo $0
+# echo " "
+
+cd "${0%/*}"
+
+
+export PREFIX_CC3D=$(pwd)
+export PYTHON_EXEC_FILE=/Users/saumyamehta/miniconda3/envs/cc3denv/bin/python
+
+export QT_QPA_PLATFORM_PLUGIN_PATH=${PREFIX_CC3D}/python37/plugins
+
+export DYLD_LIBRARY_PATH=${PREFIX_CC3D}/lib/site-packages/cc3d/cpp/lib:${DYLD_LIBRARY_PATH}
+
+export TWEDIT_PYTHON_APP=${PREFIX_CC3D}/python37/twedit++.app/Contents/MacOS/python
+
+if [ -e ${TWEDIT_PYTHON_APP} ]
+then
+    echo "Using app"
+    export PYTHON_EXEC_FILE=${TWEDIT_PYTHON_APP}
+    export PYTHON_EXEC=${TWEDIT_PYTHON_APP}
+else
+    echo "Using script"
+    ln -s ${PYTHON_EXEC_FILE} ${PREFIX_CC3D}/Twedit++
+    export PYTHON_EXEC=${PREFIX_CC3D}/Twedit++
+fi
+
+current_directory=$(pwd)
+
+cd $PREFIX_CC3D
+
+echo "====> twedit++ working directory: $PREFIX_CC3D"
+
+export PYTHONPATH=${PREFIX_CC3D}/lib/site-packages
+
+echo "====> PYTHONPATH directory: $PYTHONPATH"
+
+${PYTHON_EXEC} ${PREFIX_CC3D}/lib/site-packages/cc3d/twedit5/twedit_plus_plus_cc3d.py $*
+
+
+cd ${current_directory}

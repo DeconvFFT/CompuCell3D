@@ -142,7 +142,7 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL Windows)
 elseif (${CMAKE_SYSTEM_NAME} STREQUAL Darwin)
 
     if (BUNDLE_PYTHON)
-        SET(PYTHON_EXEC_FILE "\${PREFIX_CC3D}/python37/bin/python")
+        SET(PYTHON_EXEC_FILE "/Users/saumyamehta/miniconda3/envs/cc3denv/bin/python")
         message ("USING BUNDLE")
     else(BUNDLE_PYTHON)
         SET(PYTHON_EXEC_FILE ${PYTHON_EXECUTABLE})

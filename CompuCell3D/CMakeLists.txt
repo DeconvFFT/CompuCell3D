@@ -13,16 +13,21 @@ endif()
 
 ##APPLE CHECK
 IF (APPLE)
-    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -mmacosx-version-min=10.6 -O3 -g -fpermissive -m64 " CACHE STRING "flags used during compilation by C++ compiler" FORCE)
-    SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS} -mmacosx-version-min=10.6 -O3 -g -fpermissive -m64 " CACHE STRING "flags used during compilation by C compiler" FORCE)
-    SET(CMAKE_OSX_DEPLOYMENT_TARGET "10.9" CACHE STRING "OSX deplyment target" FORCE)
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -mmacosx-version-min=10.6 -O3 -g -fpermissive  " CACHE STRING "flags used during compilation by C++ compiler" FORCE)
+    SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS} -mmacosx-version-min=10.6 -O3 -g -fpermissive  " CACHE STRING "flags used during compilation by C compiler" FORCE)
+    SET(CMAKE_OSX_DEPLOYMENT_TARGET "12.1" CACHE STRING "OSX deplyment target" FORCE)
+    set ( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp" ) # added openmp_cxx_flag to cmake_cxx_flags
+    set ( CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenmp" )# added openmp_cflag to cmake_c_flags
+    set(CPPFLAGS "${CPPFLAGS} -I${CONDA_PREFIX}/include")
 
-    MESSAGE ("GOT APPLE")
+    MESSAGE ("GOT APPLE ")
 ENDIF (APPLE)
 
 set(CMAKE_CXX_STANDARD 11)
 
-FIND_PACKAGE (OpenMP)
+FIND_PACKAGE (OPENMP REQUIRED)
+message(STATUS "TEMPORARILY CHECKING OpenMP_CXX_FLAGS: ${OpenMP_CXX_FLAGS}")
+message(STATUS "TEMPORARILY CHECKING OpenMP_C_FLAGS: ${OpenMP_C_FLAGS}")
 
 if(${CMAKE_SYSTEM_NAME} STREQUAL Windows)
     # FIND_PACKAGE(PythonInterpreter)
@@ -108,6 +113,9 @@ SET (COMPUCELL3D_BUILD_VERSION ${COMPUCELL3D_C_BUILD_VERSION})
 
 message(" THIS IS COMPUCELL3D_BUILD_VERSION " ${COMPUCELL3D_BUILD_VERSION})
 message("COMPUCELL3D_C_BUILD_VERSION is " ${COMPUCELL3D_C_BUILD_VERSION})
+MESSAGE(STATUS "TEMPORARILY CHECKING LIBRARY: $ENV{LIBRARY_PATH}")
+MESSAGE(STATUS "TEMPORARILY CHECKING LDFLAGS: $ENV{LDFLAGS}")
+MESSAGE(STATUS "TEMPORARILY CHECKING CPPFLAGS: $ENV{CPPFLAGS}")
 
 SET(COMPUCELL3D_VERSION
   "${COMPUCELL3D_MAJOR_VERSION}.${COMPUCELL3D_MINOR_VERSION}.${COMPUCELL3D_BUILD_VERSION}")

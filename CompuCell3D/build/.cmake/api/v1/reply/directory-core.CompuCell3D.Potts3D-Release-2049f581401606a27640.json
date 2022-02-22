@@ -1,0 +1,56 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/CompuCell3D/Potts3D/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/CompuCell3D/CompuCell3D/Potts3D",
+			"paths" : 
+			[
+				"core/CompuCell3D/Potts3D/AcceptanceFunction.h",
+				"core/CompuCell3D/Potts3D/AttributeAdder.h",
+				"core/CompuCell3D/Potts3D/CellChangeWatcher.h",
+				"core/CompuCell3D/Potts3D/CellGChangeWatcher.h",
+				"core/CompuCell3D/Potts3D/Cell.h",
+				"core/CompuCell3D/Potts3D/CellInventory.h",
+				"core/CompuCell3D/Potts3D/CellTypeMotilityData.h",
+				"core/CompuCell3D/Potts3D/DefaultAcceptanceFunction.h",
+				"core/CompuCell3D/Potts3D/CustomAcceptanceFunction.h",
+				"core/CompuCell3D/Potts3D/EnergyFunction.h",
+				"core/CompuCell3D/Potts3D/EnergyFunctionCalculator.h",
+				"core/CompuCell3D/Potts3D/EnergyFunctionCalculatorStatistics.h",
+				"core/CompuCell3D/Potts3D/EnergyFunctionCalculatorTestDataGeneration.h",
+				"core/CompuCell3D/Potts3D/FirstOrderExpansionAcceptanceFunction.h",
+				"core/CompuCell3D/Potts3D/FixedStepper.h",
+				"core/CompuCell3D/Potts3D/Potts3D.h",
+				"core/CompuCell3D/Potts3D/PottsTestData.h",
+				"core/CompuCell3D/Potts3D/Stepper.h",
+				"core/CompuCell3D/Potts3D/TypeChangeWatcher.h",
+				"core/CompuCell3D/Potts3D/TypeTransition.h",
+				"core/CompuCell3D/Potts3D/FluctuationAmplitudeFunction.h",
+				"core/CompuCell3D/Potts3D/StandardFluctuationAmplitudeFunctions.h",
+				"core/CompuCell3D/Potts3D/CC3D_Potts3D.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/CompuCell3D/Potts3D",
+		"source" : "core/CompuCell3D/Potts3D"
+	}
+}

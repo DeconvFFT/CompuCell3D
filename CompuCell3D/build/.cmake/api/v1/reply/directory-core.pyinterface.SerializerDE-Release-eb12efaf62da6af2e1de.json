@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"core/pyinterface/SerializerDE/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/site-packages/cc3d/cpp",
+			"paths" : 
+			[
+				"core/pyinterface/SerializerDE/_SerializerDEPy.so"
+			],
+			"targetId" : "SerializerDEPy::@00dab2345912ab22f05e",
+			"targetIndex" : 73,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/site-packages/cc3d/cpp",
+			"paths" : 
+			[
+				"build/core/pyinterface/SerializerDE/SerializerDEPy.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/SerializerDE",
+			"paths" : 
+			[
+				"core/pyinterface/SerializerDE/SerializerDE.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/pyinterface/SerializerDE",
+		"source" : "core/pyinterface/SerializerDE"
+	}
+}

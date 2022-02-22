@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"ADD_HEADERS",
+			"ADD_COMPUCELL3D_PLUGIN"
+		],
+		"files" : 
+		[
+			"compucell3d_cmake_macros.cmake",
+			"core/CompuCell3D/plugins/CurvatureCalculator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/opt/homebrew/cc3d_apple_silicon/include/CompuCell3D/CompuCell3D/plugins/CurvatureCalculator",
+			"paths" : 
+			[
+				"core/CompuCell3D/plugins/CurvatureCalculator/CurvatureCalculatorDLLSpecifier.h",
+				"core/CompuCell3D/plugins/CurvatureCalculator/CurvatureCalculatorPlugin.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/CompuCell3D/plugins/CurvatureCalculator",
+		"source" : "core/CompuCell3D/plugins/CurvatureCalculator"
+	}
+}

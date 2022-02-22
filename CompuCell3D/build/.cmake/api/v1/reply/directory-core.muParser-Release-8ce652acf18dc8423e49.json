@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/muParser/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/CompuCell3D/muParser",
+			"paths" : 
+			[
+				"core/muParser/muParser.h",
+				"core/muParser/muParserBase.h",
+				"core/muParser/muParserBytecode.h",
+				"core/muParser/muParserCallback.h",
+				"core/muParser/muParserDef.h",
+				"core/muParser/muParserDLL.h",
+				"core/muParser/muParserError.h",
+				"core/muParser/muParserFixes.h",
+				"core/muParser/muParserInt.h",
+				"core/muParser/muParserStack.h",
+				"core/muParser/muParserTest.h",
+				"core/muParser/muParserTemplateMagic.h",
+				"core/muParser/muParserToken.h",
+				"core/muParser/muParserTokenReader.h",
+				"core/muParser/CC3D_muParser.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/muParser",
+		"source" : "core/muParser"
+	}
+}

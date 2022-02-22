@@ -1,0 +1,504 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "core/pyinterface/PlayerPythonNew/_PlayerPython.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"SWIG_ADD_LIBRARY",
+			"install",
+			"target_link_libraries",
+			"SWIG_LINK_LIBRARIES",
+			"add_dependencies",
+			"target_compile_definitions",
+			"vtk_module_autoinit",
+			"SET_DIRECTORY_PROPERTIES",
+			"INCLUDE_DIRECTORIES",
+			"set_property",
+			"SWIG_ADD_SOURCE_TO_MODULE"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/UseSWIG.cmake",
+			"core/pyinterface/PlayerPythonNew/CMakeLists.txt",
+			"/Users/saumyamehta/miniforge3/envs/cc3denv/lib/cmake/vtk-9.1/vtkModule.cmake",
+			"CMakeLists.txt",
+			"core/CMakeLists.txt",
+			"core/pyinterface/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 352,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 905,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 392,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 360,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1034,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 912,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 383,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 3121,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 166,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 40,
+				"parent" : 11
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 24,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 25,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 26,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 27,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 241,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 338,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 888,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 717,
+				"parent" : 20
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive   -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : ""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "PlayerPythonNew_EXPORTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "kiss_fft_scalar=double"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "vtkRenderingCore_AUTOINIT_INCLUDE=\"/Users/saumyamehta/CompuCell3D/CompuCell3D/build/CMakeFiles/vtkModuleAutoInit_9b5895f873bcba09752b0c704bf968d6.h\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/saumyamehta/miniforge3/envs/cc3denv/include/python3.9"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/pyinterface"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/build/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/python3.9/site-packages/numpy/core/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/CompuCellPlayer/simthread"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/CompuCellPlayer/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/pyinterface/PlayerPythonNew"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/Utils"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/CompuCell3D"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/CompuCell3D/plugins"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/pyinterface/PyPlugin"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/pyinterface/pyinterface/PlayerPythonNew"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/Users/saumyamehta/miniforge3/envs/cc3denv/include/vtk-9.1"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "BasicUtilsShared::@af37fceaacf5e7607ca7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "XMLUtilsShared::@b25e30ae7e9deab7bef2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PublicUtilitiesShared::@fb5df07fa63f95bc7d68"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "muParserShared::@094e4a6d90f5b97ea42d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ExpressionEvaluatorShared::@c846dc00ad05e1b360be"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CompuCellLibShared::@c8457079278f2b3c9d47"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Field3DShared::@5a448497ee859dc6602d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "AutomatonShared::@7d6764000b03a217008a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "BoundaryShared::@ae72aad40c329d9c6c55"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Potts3DShared::@65ce36ea101936f29846"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FieldExtractor::@df3554218095952f3d3d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "PlayerPythonNew_swig_compilation::@df3554218095952f3d3d"
+		}
+	],
+	"id" : "PlayerPythonNew::@df3554218095952f3d3d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib/site-packages/cc3d/cpp"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/opt/homebrew/cc3d_apple_silicon"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-L/opt/homebrew/opt/llvm/lib  -undefined dynamic_lookup",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/pyinterface/PlayerPythonNew -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D -Wl,-rpath,/Users/saumyamehta/miniforge3/envs/cc3denv/lib -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/Automaton -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/Potts3D -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/PublicUtilities -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/Boundary -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/Field3D -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/muParser/ExpressionEvaluator -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/muParser -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/XMLUtils -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/BasicUtils",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "libFieldExtractor.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/libCC3DCompuCellLib.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkRenderingVolume-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkInteractionStyle-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../CompuCell3D/Automaton/libCC3DAutomaton.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../CompuCell3D/Potts3D/libCC3DPotts3D.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../PublicUtilities/libCC3DPublicUtilities.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../CompuCell3D/Boundary/libCC3DBoundary.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../CompuCell3D/Field3D/libCC3DField3D.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lomp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../muParser/ExpressionEvaluator/libCC3DExpressionEvaluator.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../muParser/libCC3DmuParser.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../XMLUtils/libCC3DXMLUtils.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../BasicUtils/libCC3DBasicUtils.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkRenderingCore-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkFiltersCore-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkIOLegacy-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkIOCore-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkCommonExecutionModel-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkCommonDataModel-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkCommonTransforms-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkCommonMisc-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkCommonMath-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkCommonCore-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtksys-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/libvtkkissfft-9.1.9.1.0.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "PlayerPythonNew",
+	"nameOnDisk" : "_PlayerPython.so",
+	"paths" : 
+	{
+		"build" : "core/pyinterface/PlayerPythonNew",
+		"source" : "core/pyinterface/PlayerPythonNew"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/core/pyinterface/PlayerPythonNew/CMakeFiles/PlayerPythonNew.dir/PlayerPythonPYTHON_wrap.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/core/pyinterface/PlayerPythonNew/PlayerPython.py",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

@@ -161,9 +161,12 @@ Dim3D ParallelUtilsOpenMP::getDim(){return fieldDim;}
 
 void ParallelUtilsOpenMP::initLock(OpenMPLock_t * _lock){
 	omp_init_lock(_lock);
+
 }
 void ParallelUtilsOpenMP::destroyLock(OpenMPLock_t * _lock){
+
 	omp_destroy_lock(_lock);
+
 }
 void ParallelUtilsOpenMP::setLock(OpenMPLock_t * _lock){
 	omp_set_lock(_lock);

@@ -1,0 +1,38 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/PublicUtilities/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/CompuCell3D/PublicUtilities",
+			"paths" : 
+			[
+				"core/PublicUtilities/NumericalUtils.h",
+				"core/PublicUtilities/StringUtils.h",
+				"core/PublicUtilities/Vector3.h",
+				"core/PublicUtilities/ParallelUtilsOpenMP.h",
+				"core/PublicUtilities/CC3D_PublicUtilities.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/PublicUtilities",
+		"source" : "core/PublicUtilities"
+	}
+}

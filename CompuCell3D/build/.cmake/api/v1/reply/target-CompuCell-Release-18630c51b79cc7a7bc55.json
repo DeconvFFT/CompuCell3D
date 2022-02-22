@@ -1,0 +1,694 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "core/pyinterface/CompuCellPython/_CompuCell.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"SWIG_ADD_LIBRARY",
+			"install",
+			"target_link_libraries",
+			"SWIG_LINK_LIBRARIES",
+			"add_dependencies",
+			"SET_DIRECTORY_PROPERTIES",
+			"INCLUDE_DIRECTORIES",
+			"set_property",
+			"SWIG_ADD_SOURCE_TO_MODULE"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/Cellar/cmake/3.22.2/share/cmake/Modules/UseSWIG.cmake",
+			"core/pyinterface/CompuCellPython/CMakeLists.txt",
+			"CMakeLists.txt",
+			"core/CMakeLists.txt",
+			"core/pyinterface/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 905,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1034,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 912,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 166,
+				"parent" : 7
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 24,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 25,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 26,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 27,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 888,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 717,
+				"parent" : 17
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive   -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : ""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CompuCell_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/saumyamehta/miniforge3/envs/cc3denv/include/python3.9"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/pyinterface"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/build/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/saumyamehta/miniforge3/envs/cc3denv/lib/python3.9/site-packages/numpy/core/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/pyinterface/CompuCellPython"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/CompuCell3D"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/CompuCell3D/plugins"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core/pyinterface/PyPlugin"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "BasicUtilsShared::@af37fceaacf5e7607ca7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "XMLUtilsShared::@b25e30ae7e9deab7bef2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PublicUtilitiesShared::@fb5df07fa63f95bc7d68"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "muParserShared::@094e4a6d90f5b97ea42d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ExpressionEvaluatorShared::@c846dc00ad05e1b360be"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CompuCellLibShared::@c8457079278f2b3c9d47"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Field3DShared::@5a448497ee859dc6602d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "AutomatonShared::@7d6764000b03a217008a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "BoundaryShared::@ae72aad40c329d9c6c55"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Potts3DShared::@65ce36ea101936f29846"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ImplicitMotilityShared::@d7420072e60c791cf93e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CurvatureCalculatorShared::@dd26685245f375299a31"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "OrientedGrowthShared::@dec3738fbfd06711504a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ContactOrientationShared::@51adcab56760038e8b89"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "BoundaryMonitorShared::@bfcd3f302debb257d8e4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Polarization23Shared::@19b3e194ae174fc1452f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ClusterSurfaceShared::@902d30ee345fe7491377"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ClusterSurfaceTrackerShared::@9b4a5792d23eec39f208"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "VolumeTrackerShared::@4107914c2cfb173e6302"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "AdhesionFlexShared::@40dd63be4714f12525cb"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "MitosisShared::@38273c8295cfbabc8def"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ChemotaxisShared::@33c813b55aafdee9fab1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CenterOfMassShared::@f01a0e455dfe90ac93a5"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "MomentOfInertiaShared::@67362475adaa9412e640"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "NeighborTrackerShared::@3fa8af4b86b059c58ffd"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ContactLocalFlexShared::@23fca49b732f6fbffd5e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ContactLocalProductShared::@946bd2fdd709caea41a7"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ContactMultiCadShared::@5a43f1b3342d54ffa424"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FocalPointPlasticityShared::@89d0781f41c5e4230c40"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ConnectivityLocalFlexShared::@5ab5b1ec904fbdffd0e3"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ConnectivityGlobalShared::@b4726c6053c06567d434"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "LengthConstraintShared::@99a9ec62f859887cf61e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CellOrientationShared::@3b8a6d48add21b8a4295"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ElasticityTrackerShared::@7f9d06b303e2aea2e189"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ElasticityShared::@97ce1245fbd028631de0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PlasticityTrackerShared::@0eec3a5123bb4bc9bb0c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PlasticityShared::@c0c9abbc2c55fcf1cc50"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PolarizationVectorShared::@99756085e05fee39a4eb"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PixelTrackerShared::@6e5214cf8469aeed8f5a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "BoundaryPixelTrackerShared::@c0d94d974186bd96ee14"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "SecretionShared::@749d67640ca53f2d0169"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "BiasVectorSteppableShared::@e5309a206f59cb2b4acb"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "MitosisSteppableShared::@dd716d17093ecda49ec6"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "CompuCell_swig_compilation::@4057de09f9c936eb1903"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PyPlugin::@dfb14d0c91f0bae4b026"
+		}
+	],
+	"id" : "CompuCell::@4057de09f9c936eb1903",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib/site-packages/cc3d/cpp"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/opt/homebrew/cc3d_apple_silicon"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-L/opt/homebrew/opt/llvm/lib  -undefined dynamic_lookup",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/steppables/BiasVectorSteppable -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ImplicitMotility -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/pyinterface/PyPlugin -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/Chemotaxis -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/FocalPointPlasticity -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/PlasticityTracker -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/Plasticity -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/VolumeTracker -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/CenterOfMass -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/Mitosis -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/steppables/Mitosis -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ClusterSurface -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ClusterSurfaceTracker -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ElasticityTracker -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/Elasticity -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ContactLocalFlex -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ContactLocalProduct -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ContactMultiCad -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/AdhesionFlex -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ConnectivityLocalFlex -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ConnectivityGlobal -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/LengthConstraint -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/BoundaryMonitor -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/MomentOfInertia -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/Secretion -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/CellOrientation -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/PolarizationVector -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/Polarization23 -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/OrientedGrowth -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/ContactOrientation -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/CurvatureCalculator -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/PixelTracker -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/NeighborTracker -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/plugins/BoundaryPixelTracker -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/Automaton -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/Potts3D -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/PublicUtilities -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/Boundary -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/Field3D -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/muParser/ExpressionEvaluator -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/XMLUtils -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/BasicUtils -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/muParser",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/steppables/BiasVectorSteppable/libCC3DBiasVectorSteppable.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ImplicitMotility/libCC3DImplicitMotility.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../PyPlugin/libPyPlugin.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/Chemotaxis/libCC3DChemotaxis.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/FocalPointPlasticity/libCC3DFocalPointPlasticity.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/PlasticityTracker/libCC3DPlasticityTracker.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/Plasticity/libCC3DPlasticity.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/VolumeTracker/libCC3DVolumeTracker.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/CenterOfMass/libCC3DCenterOfMass.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/Mitosis/libCC3DMitosis.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/steppables/Mitosis/libCC3DMitosisSteppable.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ClusterSurface/libCC3DClusterSurface.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ClusterSurfaceTracker/libCC3DClusterSurfaceTracker.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ElasticityTracker/libCC3DElasticityTracker.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/Elasticity/libCC3DElasticity.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ContactLocalFlex/libCC3DContactLocalFlex.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ContactLocalProduct/libCC3DContactLocalProduct.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ContactMultiCad/libCC3DContactMultiCad.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/AdhesionFlex/libCC3DAdhesionFlex.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ConnectivityLocalFlex/libCC3DConnectivityLocalFlex.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ConnectivityGlobal/libCC3DConnectivityGlobal.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/LengthConstraint/libCC3DLengthConstraint.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/BoundaryMonitor/libCC3DBoundaryMonitor.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/MomentOfInertia/libCC3DMomentOfInertia.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/Secretion/libCC3DSecretion.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/CellOrientation/libCC3DCellOrientation.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/PolarizationVector/libCC3DPolarizationVector.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/Polarization23/libCC3DPolarization23.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/OrientedGrowth/libCC3DOrientedGrowth.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/ContactOrientation/libCC3DContactOrientation.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/CurvatureCalculator/libCC3DCurvatureCalculator.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/PixelTracker/libCC3DPixelTracker.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/NeighborTracker/libCC3DNeighborTracker.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/plugins/BoundaryPixelTracker/libCC3DBoundaryPixelTracker.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/libCC3DCompuCellLib.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../CompuCell3D/Automaton/libCC3DAutomaton.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../CompuCell3D/Potts3D/libCC3DPotts3D.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../PublicUtilities/libCC3DPublicUtilities.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../CompuCell3D/Boundary/libCC3DBoundary.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../CompuCell3D/Field3D/libCC3DField3D.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lomp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../muParser/ExpressionEvaluator/libCC3DExpressionEvaluator.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../XMLUtils/libCC3DXMLUtils.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../BasicUtils/libCC3DBasicUtils.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../muParser/libCC3DmuParser.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "CompuCell",
+	"nameOnDisk" : "_CompuCell.so",
+	"paths" : 
+	{
+		"build" : "core/pyinterface/CompuCellPython",
+		"source" : "core/pyinterface/CompuCellPython"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/core/pyinterface/CompuCellPython/CMakeFiles/CompuCell.dir/CompuCellPYTHON_wrap.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/core/pyinterface/CompuCellPython/CompuCell.py",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

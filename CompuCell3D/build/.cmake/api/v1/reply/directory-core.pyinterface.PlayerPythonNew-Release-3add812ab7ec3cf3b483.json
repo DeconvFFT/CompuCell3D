@@ -1,0 +1,62 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"core/pyinterface/PlayerPythonNew/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 392,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 396,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/site-packages/cc3d/cpp",
+			"paths" : 
+			[
+				"core/pyinterface/PlayerPythonNew/_PlayerPython.so"
+			],
+			"targetId" : "PlayerPythonNew::@df3554218095952f3d3d",
+			"targetIndex" : 63,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/site-packages/cc3d/cpp",
+			"paths" : 
+			[
+				"build/core/pyinterface/PlayerPythonNew/PlayerPython.py"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/pyinterface/PlayerPythonNew",
+		"source" : "core/pyinterface/PlayerPythonNew"
+	}
+}

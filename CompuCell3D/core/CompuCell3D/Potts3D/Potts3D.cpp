@@ -1449,114 +1449,114 @@ void Potts3D::setFrozenTypeVector(std::vector<unsigned char> & _frozenTypeVec) {
 
 void Potts3D::update(CC3DXMLElement *_xmlData, bool _fullInitFlag) {
 
-    bool fluctAmplGlobalReadFlag = false;
-    if (_xmlData->getFirstElement("FluctuationAmplitude")) {
-        if (!_xmlData->getFirstElement("FluctuationAmplitude")->findElement("FluctuationAmplitudeParameters")) {
+    // bool fluctAmplGlobalReadFlag = false;
+    // if (_xmlData->getFirstElement("FluctuationAmplitude")) {
+    //     if (!_xmlData->getFirstElement("FluctuationAmplitude")->findElement("FluctuationAmplitudeParameters")) {
 
-            //we do not allow steering for motility specified by type
-            sim->ppdCC3DPtr->temperature = _xmlData->getFirstElement("FluctuationAmplitude")->getDouble();
-            fluctAmplGlobalReadFlag = true;
-        }
-    }
+    //         //we do not allow steering for motility specified by type
+    //         sim->ppdCC3DPtr->temperature = _xmlData->getFirstElement("FluctuationAmplitude")->getDouble();
+    //         fluctAmplGlobalReadFlag = true;
+    //     }
+    // }
 
-    if (!fluctAmplGlobalReadFlag && _xmlData->getFirstElement("Temperature")) {
-        sim->ppdCC3DPtr->temperature = _xmlData->getFirstElement("Temperature")->getDouble();
-    }
+    // if (!fluctAmplGlobalReadFlag && _xmlData->getFirstElement("Temperature")) {
+    //     sim->ppdCC3DPtr->temperature = _xmlData->getFirstElement("Temperature")->getDouble();
+    // }
 
-    if (_xmlData->getFirstElement("RandomSeed")) {
-        BasicRandomNumberGenerator *rand = BasicRandomNumberGenerator::getInstance();
-        if (rand->getSeed() != _xmlData->getFirstElement("RandomSeed")->getUInt())
-            rand->setSeed(_xmlData->getFirstElement("RandomSeed")->getUInt());
-    }
+    // if (_xmlData->getFirstElement("RandomSeed")) {
+    //     BasicRandomNumberGenerator *rand = BasicRandomNumberGenerator::getInstance();
+    //     if (rand->getSeed() != _xmlData->getFirstElement("RandomSeed")->getUInt())
+    //         rand->setSeed(_xmlData->getFirstElement("RandomSeed")->getUInt());
+    // }
 
-    if (_xmlData->getFirstElement("Offset")) {
-        if (_xmlData->getFirstElement("Offset")->getDouble() != 0.)
-            getAcceptanceFunction()->setOffset(_xmlData->getFirstElement("Offset")->getDouble());
-    }
-    if (_xmlData->getFirstElement("KBoltzman")) {
-        if (_xmlData->getFirstElement("KBoltzman")->getDouble() != 1.0)
-            getAcceptanceFunction()->setK(_xmlData->getFirstElement("KBoltzman")->getDouble());
-    }
-    if (_xmlData->getFirstElement("DebugOutputFrequency")) {
-        if (debugOutputFrequency != _xmlData->getFirstElement("DebugOutputFrequency")->getUInt()) {
-            setDebugOutputFrequency(_xmlData->getFirstElement("DebugOutputFrequency")->getUInt() > 0 ? _xmlData->getFirstElement("DebugOutputFrequency")->getUInt() : 0);
-            sim->ppdCC3DPtr->debugOutputFrequency = debugOutputFrequency;
-        }
-    }
+    // if (_xmlData->getFirstElement("Offset")) {
+    //     if (_xmlData->getFirstElement("Offset")->getDouble() != 0.)
+    //         getAcceptanceFunction()->setOffset(_xmlData->getFirstElement("Offset")->getDouble());
+    // }
+    // if (_xmlData->getFirstElement("KBoltzman")) {
+    //     if (_xmlData->getFirstElement("KBoltzman")->getDouble() != 1.0)
+    //         getAcceptanceFunction()->setK(_xmlData->getFirstElement("KBoltzman")->getDouble());
+    // }
+    // if (_xmlData->getFirstElement("DebugOutputFrequency")) {
+    //     if (debugOutputFrequency != _xmlData->getFirstElement("DebugOutputFrequency")->getUInt()) {
+    //         setDebugOutputFrequency(_xmlData->getFirstElement("DebugOutputFrequency")->getUInt() > 0 ? _xmlData->getFirstElement("DebugOutputFrequency")->getUInt() : 0);
+    //         sim->ppdCC3DPtr->debugOutputFrequency = debugOutputFrequency;
+    //     }
+    // }
 
-    bool depthFlag = false;
-    unsigned int neighborOrder = 1; //safe to request as a default neighbororder 1. BoundaryStrategy will reinitialize neighbor list only if the new neighbor order is greater than the previous one
-    float depth = 0.0;
-    if (_xmlData->getFirstElement("FlipNeighborMaxDistance")) {
+    // bool depthFlag = false;
+    // unsigned int neighborOrder = 1; //safe to request as a default neighbororder 1. BoundaryStrategy will reinitialize neighbor list only if the new neighbor order is greater than the previous one
+    // float depth = 0.0;
+    // if (_xmlData->getFirstElement("FlipNeighborMaxDistance")) {
 
-        depth = _xmlData->getFirstElement("FlipNeighborMaxDistance")->getDouble();
-        depthFlag = true;
-    }
+    //     depth = _xmlData->getFirstElement("FlipNeighborMaxDistance")->getDouble();
+    //     depthFlag = true;
+    // }
 
-    if (_xmlData->getFirstElement("NeighborOrder")) {
+    // if (_xmlData->getFirstElement("NeighborOrder")) {
 
-        neighborOrder = _xmlData->getFirstElement("NeighborOrder")->getUInt();
-        depthFlag = false;
-    }
+    //     neighborOrder = _xmlData->getFirstElement("NeighborOrder")->getUInt();
+    //     depthFlag = false;
+    // }
 
-    if (depthFlag) {
-        setDepth(depth);
-    }
-    else {
-        setNeighborOrder(neighborOrder);
-    }
+    // if (depthFlag) {
+    //     setDepth(depth);
+    // }
+    // else {
+    //     setNeighborOrder(neighborOrder);
+    // }
 
-    //CustomAcceptanceFunction
-    unsigned int currentStep = sim->getStep();
-    if (_xmlData->getFirstElement("CustomAcceptanceFunction")) {
-        if (currentStep > 0) {
-            //we can only update custom acceptance function when simulation has been initialized and we know how many cores are used
-            customAcceptanceFunction.update(_xmlData->getFirstElement("CustomAcceptanceFunction"), true);
-        }
+    // //CustomAcceptanceFunction
+    // unsigned int currentStep = sim->getStep();
+    // if (_xmlData->getFirstElement("CustomAcceptanceFunction")) {
+    //     if (currentStep > 0) {
+    //         //we can only update custom acceptance function when simulation has been initialized and we know how many cores are used
+    //         customAcceptanceFunction.update(_xmlData->getFirstElement("CustomAcceptanceFunction"), true);
+    //     }
 
-        //first  initialization of the acceptance function will be done in the metropolis function
-        customAcceptanceExpressionDefined = true;
-        customAcceptanceFunction.update(_xmlData->getFirstElement("CustomAcceptanceFunction"), false); //this stores XML information inside ExpressionEvaluationDepot local variables
-        registerAcceptanceFunction(&customAcceptanceFunction);
-    }
+    //     //first  initialization of the acceptance function will be done in the metropolis function
+    //     customAcceptanceExpressionDefined = true;
+    //     customAcceptanceFunction.update(_xmlData->getFirstElement("CustomAcceptanceFunction"), false); //this stores XML information inside ExpressionEvaluationDepot local variables
+    //     registerAcceptanceFunction(&customAcceptanceFunction);
+    // }
 
 
 
-    //Units
-    if (_xmlData->getFirstElement("Units")) {
-        if (_xmlData->getFirstElement("Units")->findAttribute("DoNotDisplayUnits")) {
-            displayUnitsFlag = false;
-        }
-        CC3DXMLElement *unitElemPtr;
-        CC3DXMLElement *unitsPtr = _xmlData->getFirstElement("Units");
-        unitElemPtr = unitsPtr->getFirstElement("MassUnit");
-        if (unitElemPtr) {
-            massUnit = Unit(unitElemPtr->getText());
-        }
-        unitElemPtr = unitsPtr->getFirstElement("LengthUnit");
-        if (unitElemPtr) {
-            lengthUnit = Unit(unitElemPtr->getText());
-        }
-        unitElemPtr = unitsPtr->getFirstElement("TimeUnit");
-        if (unitElemPtr) {
-            timeUnit = Unit(unitElemPtr->getText());
-        }
+    // //Units
+    // if (_xmlData->getFirstElement("Units")) {
+    //     if (_xmlData->getFirstElement("Units")->findAttribute("DoNotDisplayUnits")) {
+    //         displayUnitsFlag = false;
+    //     }
+    //     CC3DXMLElement *unitElemPtr;
+    //     CC3DXMLElement *unitsPtr = _xmlData->getFirstElement("Units");
+    //     unitElemPtr = unitsPtr->getFirstElement("MassUnit");
+    //     if (unitElemPtr) {
+    //         massUnit = Unit(unitElemPtr->getText());
+    //     }
+    //     unitElemPtr = unitsPtr->getFirstElement("LengthUnit");
+    //     if (unitElemPtr) {
+    //         lengthUnit = Unit(unitElemPtr->getText());
+    //     }
+    //     unitElemPtr = unitsPtr->getFirstElement("TimeUnit");
+    //     if (unitElemPtr) {
+    //         timeUnit = Unit(unitElemPtr->getText());
+    //     }
 
-        if (displayUnitsFlag) {
-            updateUnits(unitsPtr);
-        }
+    //     if (displayUnitsFlag) {
+    //         updateUnits(unitsPtr);
+    //     }
 
-    }
-    else {
+    // }
+    // else {
 
-        //displaying basic units
+    //     //displaying basic units
 
-        CC3DXMLElement * unitsPtr = _xmlData->attachElement("Units", "");
-        if (displayUnitsFlag) {
-            updateUnits(unitsPtr);
-        }
+    //     CC3DXMLElement * unitsPtr = _xmlData->attachElement("Units", "");
+    //     if (displayUnitsFlag) {
+    //         updateUnits(unitsPtr);
+    //     }
 
-    }
+    // }
 
 }
 

@@ -1,0 +1,221 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "core/CompuCell3D/Boundary/libCC3DBoundary.dylib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"ADD_SHARED_LIBRARY",
+			"TARGET_LINK_LIBRARIES",
+			"SET_DIRECTORY_PROPERTIES",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"compucell3d_cmake_macros.cmake",
+			"core/CompuCell3D/Boundary/CMakeLists.txt",
+			"CMakeLists.txt",
+			"core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 166,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive    -mmacosx-version-min=10.6 -O3 -g -fpermissive   -fopenmp -O3 -DNDEBUG -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.1 -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "BoundaryShared_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/saumyamehta/CompuCell3D/CompuCell3D/core"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "BasicUtilsShared::@af37fceaacf5e7607ca7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Field3DShared::@5a448497ee859dc6602d"
+		}
+	],
+	"id" : "BoundaryShared::@ae72aad40c329d9c6c55",
+	"install" : 
+	{
+		"destinations" : [],
+		"prefix" : 
+		{
+			"path" : "/opt/homebrew/cc3d_apple_silicon"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-L/opt/homebrew/opt/llvm/lib",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/CompuCell3D/Field3D -Wl,-rpath,/Users/saumyamehta/CompuCell3D/CompuCell3D/build/core/BasicUtils",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../Field3D/libCC3DField3D.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../BasicUtils/libCC3DBasicUtils.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "BoundaryShared",
+	"nameOnDisk" : "libCC3DBoundary.dylib",
+	"paths" : 
+	{
+		"build" : "core/CompuCell3D/Boundary",
+		"source" : "core/CompuCell3D/Boundary"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "core/CompuCell3D/Boundary/BoundaryStrategy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "core/CompuCell3D/Boundary/DefaultAlgorithm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "core/CompuCell3D/Boundary/PeriodicBoundary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "core/CompuCell3D/Boundary/ChengbangAlgorithm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "core/CompuCell3D/Boundary/NoFluxBoundary.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,38 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"core/XMLUtils/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 0,
+			"component" : "Unspecified",
+			"destination" : "include/CompuCell3D/XMLUtils",
+			"paths" : 
+			[
+				"core/XMLUtils/CC3DXMLElement.h",
+				"core/XMLUtils/CC3DXMLElementWalker.h",
+				"core/XMLUtils/XMLParserExpatLibDLLSpecifier.h",
+				"core/XMLUtils/XMLUtilsDLLSpecifier.h",
+				"core/XMLUtils/CC3D_XMLUtils.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/XMLUtils",
+		"source" : "core/XMLUtils"
+	}
+}

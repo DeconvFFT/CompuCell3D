@@ -13,11 +13,11 @@ export __CF_USER_TEXT_ENCODING=""
 
 export PREFIX_CC3D=$(pwd)
 
-export PYTHON_EXEC_FILE=${PREFIX_CC3D}/python37/bin/python
+export PYTHON_EXEC_FILE=/Users/saumyamehta/miniforge3/envs/cc3denv/bin/python
 
-export QT_QPA_PLATFORM_PLUGIN_PATH=${PREFIX_CC3D}/python37/plugins
+export QT_QPA_PLATFORM_PLUGIN_PATH=/Users/saumyamehta/miniforge3/envs/cc3denv/plugins
 
-export CC3D_PYTHON_APP=${PREFIX_CC3D}/python37/compucell3d.app/Contents/MacOS/python
+export CC3D_PYTHON_APP=/Users/saumyamehta/miniforge3/envs/cc3denv/bin/python
 
 export DYLD_LIBRARY_PATH=${PREFIX_CC3D}/lib/site-packages/cc3d/cpp/lib:${DYLD_LIBRARY_PATH}
 
@@ -28,8 +28,8 @@ then
     export PYTHON_EXEC=${CC3D_PYTHON_APP}
 else
     echo "Using script"
-    ln -s ${PYTHON_EXEC_FILE} ${PREFIX_CC3D}/CompuCell3D
-    export PYTHON_EXEC=${PREFIX_CC3D}/CompuCell3D
+    ln -s ${PYTHON_EXEC_FILE} ${PREFIX_CC3D}/include/CompuCell3D
+    export PYTHON_EXEC=${PREFIX_CC3D}/include/CompuCell3D
 fi
 
 

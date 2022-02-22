@@ -1,0 +1,145 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"ADD_HEADERS",
+			"ADD_COMPUCELL3D_STEPPABLE",
+			"ADD_COMPUCELL3D_STEPPABLE_HEADERS"
+		],
+		"files" : 
+		[
+			"compucell3d_cmake_macros.cmake",
+			"core/CompuCell3D/steppables/PDESolvers/CMakeLists.txt",
+			"core/CompuCell3D/steppables/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 208,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/opt/homebrew/cc3d_apple_silicon/include/CompuCell3D/CompuCell3D/steppables/PDESolvers",
+			"paths" : 
+			[
+				"core/CompuCell3D/steppables/PDESolvers/AdvectionDiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/BoundaryConditionSpecifier.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffSecrData.h",
+				"core/CompuCell3D/steppables/PDESolvers/Diffusable.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableGraph.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableVector.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableVector2D.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableVectorCommon.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableVectorFortran.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusionSolverFE_CPU.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusionSolverFE_CPU_Implicit.h",
+				"core/CompuCell3D/steppables/PDESolvers/FastDiffusionSolver2DFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleDiffusionSolverADE.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleDiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleDiffusionSolverFE_GPU.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleDiffusionSolverFE_GPU.hpp",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleDiffusionSolverFE_GPU_Device.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleReactionDiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/FluctuationCompensator.h",
+				"core/CompuCell3D/steppables/PDESolvers/GPUSolverBasicData.h",
+				"core/CompuCell3D/steppables/PDESolvers/GPUSolverParams.h",
+				"core/CompuCell3D/steppables/PDESolvers/KernelDiffusionSolver.h",
+				"core/CompuCell3D/steppables/PDESolvers/MyTime.h",
+				"core/CompuCell3D/steppables/PDESolvers/PDESolversDLLSpecifier.h",
+				"core/CompuCell3D/steppables/PDESolvers/PDESolversGPUDllSpecifier.h",
+				"core/CompuCell3D/steppables/PDESolvers/ReactionDiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/ReactionDiffusionSolverFE_SavHog.h",
+				"core/CompuCell3D/steppables/PDESolvers/ReactionDiffusionSolverFVM.h",
+				"core/CompuCell3D/steppables/PDESolvers/SteadyStateDiffusionSolver.h",
+				"core/CompuCell3D/steppables/PDESolvers/SteadyStateDiffusionSolver2D.h",
+				"core/CompuCell3D/steppables/PDESolvers/f2c.h",
+				"core/CompuCell3D/steppables/PDESolvers/hpppdesolvers.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "/opt/homebrew/cc3d_apple_silicon/include/CompuCell3D/CompuCell3D/steppables/PDESolvers",
+			"paths" : 
+			[
+				"core/CompuCell3D/steppables/PDESolvers/AdvectionDiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/BoundaryConditionSpecifier.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffSecrData.h",
+				"core/CompuCell3D/steppables/PDESolvers/Diffusable.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableGraph.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableVector.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableVector2D.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableVectorCommon.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusableVectorFortran.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusionSolverFE_CPU.h",
+				"core/CompuCell3D/steppables/PDESolvers/DiffusionSolverFE_CPU_Implicit.h",
+				"core/CompuCell3D/steppables/PDESolvers/FastDiffusionSolver2DFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleDiffusionSolverADE.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleDiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleDiffusionSolverFE_GPU.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleDiffusionSolverFE_GPU_Device.h",
+				"core/CompuCell3D/steppables/PDESolvers/FlexibleReactionDiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/FluctuationCompensator.h",
+				"core/CompuCell3D/steppables/PDESolvers/GPUSolverBasicData.h",
+				"core/CompuCell3D/steppables/PDESolvers/GPUSolverParams.h",
+				"core/CompuCell3D/steppables/PDESolvers/KernelDiffusionSolver.h",
+				"core/CompuCell3D/steppables/PDESolvers/MyTime.h",
+				"core/CompuCell3D/steppables/PDESolvers/PDESolversDLLSpecifier.h",
+				"core/CompuCell3D/steppables/PDESolvers/PDESolversGPUDllSpecifier.h",
+				"core/CompuCell3D/steppables/PDESolvers/ReactionDiffusionSolverFE.h",
+				"core/CompuCell3D/steppables/PDESolvers/ReactionDiffusionSolverFE_SavHog.h",
+				"core/CompuCell3D/steppables/PDESolvers/ReactionDiffusionSolverFVM.h",
+				"core/CompuCell3D/steppables/PDESolvers/SteadyStateDiffusionSolver.h",
+				"core/CompuCell3D/steppables/PDESolvers/SteadyStateDiffusionSolver2D.h",
+				"core/CompuCell3D/steppables/PDESolvers/f2c.h",
+				"core/CompuCell3D/steppables/PDESolvers/hpppdesolvers.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core/CompuCell3D/steppables/PDESolvers",
+		"source" : "core/CompuCell3D/steppables/PDESolvers"
+	}
+}

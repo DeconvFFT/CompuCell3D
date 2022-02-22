@@ -81,7 +81,7 @@ void CellTypePlugin::update(CC3DXMLElement *_xmlData, bool _fullInitFlag){
 
 	type_name_mitr = typeNameMap.find(type_id);
 
-	ASSERT_OR_THROW("Type id: "+SSTR((int)type_id)+" has already been defined", (type_name_mitr == typeNameMap.end()));
+	//ASSERT_OR_THROW("Type id: "+SSTR((int)type_id)+" has already been defined", (type_name_mitr == typeNameMap.end()));
 	typeNameMap[type_id] = type_name;
 
 	name_type_mitr = nameTypeMap.find(type_name);
