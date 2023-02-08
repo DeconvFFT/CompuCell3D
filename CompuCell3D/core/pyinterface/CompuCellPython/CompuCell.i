@@ -250,7 +250,7 @@ using namespace CompuCell3D;
 %include "Logger/CC3DLogger.h"
 %include "Field3D/Point3D.h"
 %include "Field3D/Dim3D.h"
-
+%include "cuda/finite_difference.h"
 
 %extend CompuCell3D::Point3D{
   std::string __str__(){

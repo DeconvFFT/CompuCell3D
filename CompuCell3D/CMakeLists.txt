@@ -1,4 +1,4 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 3.14)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.20.3)
 PROJECT(COMPUCELL3D)
 
 
@@ -22,6 +22,9 @@ ENDIF (APPLE)
 
 set(CMAKE_CXX_STANDARD 11)
 
+# set(CMAKE_C_STANDARD 17)
+# set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 # to get openmp detected via conda - start cmake from the conda environment that contains
 # openmp installation on OSX . on OSX install llvm-openmp to get openmp with clang
 # When running via command line use e.g. :
@@ -63,8 +66,10 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL Windows)
 
 else()
     # find_package (Python 3 COMPONENTS Interpreter Development)
-    FIND_PACKAGE(PythonLibs)
+    #find_package(Python3 COMPONENTS Interpreter Development)
     FIND_PACKAGE(PythonInterp)
+    FIND_PACKAGE(PythonLibs)
+
     # INCLUDE(FindPythonLibs)
 
 
@@ -98,6 +103,19 @@ message("Python_LIBRARIES: ${Python_LIBRARIES}")
 message("Python_LIBRARY_DIRS: ${Python_LIBRARY_DIRS}")
 message("Python_RUNTIME_LIBRARY_DIRS: ${Python_RUNTIME_LIBRARY_DIRS}")
 message("Python_NumPy_INCLUDE_DIRS: ${Python_NumPy_INCLUDE_DIRS}")
+
+# find cuda
+find_package(CUDAToolkit)
+if(CUDAToolkit_FOUND)
+  message(STATUS "Detected CUDA")
+  message(STATUS "  Version           : ${CUDAToolkit_VERSION}")
+  message(STATUS "  Architectures     : ${CMAKE_CUDA_ARCHITECTURES}")
+  message(STATUS "  Compiler          : ${CUDAToolkit_NVCC_EXECUTABLE}")
+  set(CC3D_HAVECUDA ON)
+else()
+  message(STATUS "No detected CUDA support")
+  set(CC3D_HAVECUDA OFF)
+endif()
 
 # Should we build shared libraries
 OPTION(BUILD_SHARED_LIBS "Build shared libraries" ON)

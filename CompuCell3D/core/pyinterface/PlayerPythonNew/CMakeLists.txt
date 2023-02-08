@@ -9,6 +9,7 @@ SET(SRCS
    FieldWriterCML.cpp
    FieldStreamer.cpp
 )
+MESSAGE("VTK_MAJOR_VERSION " ${VTK_MAJOR_VERSION})
 
 if (${VTK_MAJOR_VERSION} EQUAL "6")
     SET(VTK_LIBS vtkRenderingOpenGL vtkInteractionStyle vtkRenderingVolumeOpenGL vtkIOLegacy)
@@ -26,6 +27,9 @@ endif()
 if (${VTK_MAJOR_VERSION} EQUAL "5")
     SET(VTK_LIBS vtkVolumeRendering vtkHybrid vtkFiltering vtkCommon)
 endif()
+if (${VTK_MAJOR_VERSION} EQUAL "9")
+    SET(VTK_LIBS RenderingVolume InteractionStyle  IOLegacy)
+endif()
 
 LINK_DIRECTORIES(${VTK_LIBRARY_DIRS})
 
@@ -38,7 +42,7 @@ SET(LIBS
 
 )
 
-MESSAGE("VTK_LIB_DIRS " ${VTK_LIBRARY_DIRS})
+MESSAGE("VTK_LIB_DIRS " ${VTK_LIBS})
 
 if(${CMAKE_SYSTEM_NAME} STREQUAL Windows)
     ADD_LIBRARY(FieldExtractor SHARED ${SRCS})

@@ -31,7 +31,7 @@ SET (HEADER_FILES
   DiffusableVector.h
   DiffusableVectorCommon.h
   DiffusableVectorFortran.h
-  hpppdesolvers
+  hpppdesolvers.h
   FlexibleDiffusionSolverFE.h
   # FiPySolver.h
   DiffusionSolverFE.h
