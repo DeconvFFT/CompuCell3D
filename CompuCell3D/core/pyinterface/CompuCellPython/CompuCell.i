@@ -79,7 +79,12 @@
 #include<CompuCell3D/steppables/PDESolvers/ReactionDiffusionSolverFVM.h>
 #include <CompuCell3D/steppables/PDESolvers/DiffusionSolverFE_CPU.h>
 #include <CompuCell3D/steppables/PDESolvers/ReactionDiffusionSolverFE.h>
+
 #include <Logger/CC3DLogger.h>
+
+#include <finite_difference/finite_difference.h>
+#include<finite_difference/Logger/FDLogger.h>
+
 //#include <CompuCell3D/BabySim/BabyPottsParseData.h>
 //#include <CompuCell3D/BabySim/BabySim.h>
 
@@ -96,6 +101,7 @@
 // System Libraries
 #include <iostream>
 #include <stdlib.h>
+
 
 
 #include "STLPyIterator.h"
@@ -118,6 +124,7 @@
 using namespace std;
 using namespace CompuCell3D;
 
+using namespace FiniteDifference;
 
 
 %}
@@ -247,10 +254,20 @@ using namespace CompuCell3D;
 
 // we have to include files for objects that we will type-map before including definitions of corresponding typemaps
 // logger include
+
+%nspace CompuCell3D {
 %include "Logger/CC3DLogger.h"
+}
+
+%nspace FiniteDifference {
+%include "finite_difference/Logger/FDLogger.h"
+}
+
+
+
 %include "Field3D/Point3D.h"
 %include "Field3D/Dim3D.h"
-%include "cuda/finite_difference.h"
+%include "finite_difference/finite_difference.h"
 
 %extend CompuCell3D::Point3D{
   std::string __str__(){
@@ -275,7 +292,7 @@ using namespace CompuCell3D;
 
 %}
 };
-
+ 
 
 %extend CompuCell3D::Dim3D{
   std::string __str__(){
@@ -329,8 +346,7 @@ using namespace CompuCell3D;
 %include <CompuCell3D/Boundary/BoundaryStrategy.h>
 %include "Potts3D/Cell.h"
 
-    
-    
+
 using namespace CompuCell3D;
 
 
@@ -1071,8 +1087,7 @@ FIELD3DEXTENDERBASE(type,returnType)
 }
 %enddef    
     
-    
-    
+
 %ignore Field3D<float>::typeStr;
 %ignore Field3DImpl<float>::typeStr;
 %ignore Field3D<int>::typeStr;
@@ -1080,6 +1095,7 @@ FIELD3DEXTENDERBASE(type,returnType)
 %ignore Field3D<CellG*>::typeStr;
 %ignore Field3DImpl<CellG*>::typeStr;
 %ignore WatchableField3D<CellG*>::typeStr;
+// %ignore vector<float>::typeStr;
 
 %template(floatfield) Field3D<float>;
 %template(floatfieldImpl) Field3DImpl<float>;
@@ -1101,6 +1117,7 @@ FIELD3DEXTENDER(Field3D<int>,int)
 %template(vectordouble) std::vector<double>;
 %template(vectorvectordouble) std::vector<std::vector<double> >;
 
+// %include <std_vector.i>
 %template(vectorint) std::vector<int>;
 %template(vectorunsignedchar) std::vector<unsigned char>;
 %template(vectorbool) std::vector<bool>;
@@ -1116,6 +1133,9 @@ FIELD3DEXTENDER(Field3D<int>,int)
 %template (mapLongFloat) std::map<long, float>;
 %template(mapLongmapLongCellGPtr)std::map<long,std::map<long,CellG *> >;
 
+
+%feature("nodisown") std::vector<float>;
+%feature("nodisown") std::vector<double>;
 
 %include "Potts3D/CellGChangeWatcher.h"
 %include "Potts3D/TypeChangeWatcher.h"
@@ -1443,24 +1463,58 @@ public:
 
 
 
-
-  // todo - plugin manager
-  void initializePlugins() {
-    CC3D_Log(LOG_DEBUG) << "initialize plugin fcn";
-
-    char *steppablePath = getenv("COMPUCELL3D_STEPPABLE_PATH");
-    CC3D_Log(LOG_DEBUG) << "steppablePath=" << steppablePath;
-    if (steppablePath) Simulator::steppableManager.loadLibraries(steppablePath);
+// %nspace CompuCell3D {
+//   // todo - plugin manager
+//   void initializePluginsns() {
+    
+//     CC3D_Log(CompuCell3D::LOG_DEBUG) << "initialize plugin fcn";
+//     char *steppablePath = getenv("COMPUCELL3D_STEPPABLE_PATH");
+//     CC3D_Log(CompuCell3D::LOG_DEBUG) << "steppablePath=" << steppablePath;
+//     if (steppablePath) Simulator::steppableManager.loadLibraries(steppablePath);
 	  
-    char *pluginPath = getenv("COMPUCELL3D_PLUGIN_PATH");
-    CC3D_Log(LOG_DEBUG) << "pluginPath=" << pluginPath;
-    CC3D_Log(LOG_DEBUG) << "THIS IS JUST BEFORE LOADING LIBRARIES";
-      
+//     char *pluginPath = getenv("COMPUCELL3D_PLUGIN_PATH");
+//     CC3D_Log(CompuCell3D::LOG_DEBUG) << "pluginPath=" << pluginPath;
+//     CC3D_Log(CompuCell3D::LOG_DEBUG) << "THIS IS JUST BEFORE LOADING LIBRARIES";
+  
    
-    if (pluginPath) Simulator::pluginManager.loadLibraries(pluginPath);
+//     if (pluginPath) Simulator::pluginManager.loadLibraries(pluginPath);
 
-  }
+//   }
+// }
 
+
+  
+
+// %nspace FiniteDifference {
+//     void initializePluginsns() {
+    
+
+//     }
+// }
+    
+
+void initializePlugins() {
+using namespace CompuCell3D;
+using namespace FiniteDifference;
+
+CC3D_Log(CompuCell3D::LOG_DEBUG) << "initialize plugin fcn";
+char *steppablePath = getenv("COMPUCELL3D_STEPPABLE_PATH");
+CC3D_Log(CompuCell3D::LOG_DEBUG) << "steppablePath=" << steppablePath;
+if (steppablePath) Simulator::steppableManager.loadLibraries(steppablePath);
+    
+char *pluginPath = getenv("COMPUCELL3D_PLUGIN_PATH");
+CC3D_Log(CompuCell3D::LOG_DEBUG) << "pluginPath=" << pluginPath;
+CC3D_Log(CompuCell3D::LOG_DEBUG) << "THIS IS JUST BEFORE LOADING LIBRARIES";
+
+// FD_Log(FiniteDifference::LOG_DEBUG) << "initialize plugin fcn";
+// FD_Log(FiniteDifference::LOG_DEBUG) << "steppablePath=" << steppablePath;
+
+// FD_Log(FiniteDifference::LOG_DEBUG) << "pluginPath=" << pluginPath;
+// FD_Log(FiniteDifference::LOG_DEBUG) << "THIS IS JUST BEFORE LOADING LIBRARIES";
+if (pluginPath) Simulator::pluginManager.loadLibraries(pluginPath);
+
+}
+      
 
 
   /**
@@ -1476,8 +1530,23 @@ public:
       destination=source;
    }
 
+//    %nspace CompuCell3D {
+//     void printModuleNamens(ParseData * source){
+    
+     
+//    }
+//    }
+//     %nspace FiniteDifference {
+//     void printModuleNamens(ParseData * source){
+    
+     
+//    }
+//     }
    void printModuleName(ParseData * source){
-      CC3D_Log(LOG_DEBUG) << "ModuleName=" << source->moduleName;
+        using namespace CompuCell3D;
+      //CC3D_Log(CompuCell3D::LOG_DEBUG) << "ModuleName=" << source->moduleName;
+        CC3D_Log(CompuCell3D::LOG_DEBUG) << "ModuleName=" << source->moduleName;
+
    }
 
 %}

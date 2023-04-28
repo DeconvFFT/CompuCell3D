@@ -4,11 +4,6 @@ find_package(CUDAToolkit)
 if(CUDAToolkit_FOUND AND CC3D_WITHCUDA)
 enable_language(CUDA)
 set(CC3D_HAVECUDA ON)
-  # target_link_libraries(
-  #   CUDA::cudart 
-  #   CUDA::cuda_driver 
-  #   CUDA::nvrtc
-  # )
   else()
   set(CC3D_HAVECUDA OFF)
 endif()
@@ -61,4 +56,4 @@ if(CC3D_HAVECUDA)
 endif()
 
 target_include_directories(finite_difference PUBLIC ${CUDA_INCLUDE_DIRS} ${Python_INCLUDE_DIRS})
-target_link_libraries(finite_difference PUBLIC ${CC3D_LIBS})
+target_link_libraries(finite_difference PRIVATE ${CC3D_LIBS})

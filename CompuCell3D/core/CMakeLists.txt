@@ -6,7 +6,7 @@ ADD_SUBDIRECTORY(XMLUtils)
 ADD_SUBDIRECTORY(muParser)
 # ADD_SUBDIRECTORY(Cleaver)
 ADD_SUBDIRECTORY(CompuCell3D)
-ADD_SUBDIRECTORY(cuda)
+ADD_SUBDIRECTORY(finite_difference)
 
 IF(BUILD_PYINTERFACE)
     ADD_SUBDIRECTORY(pyinterface)
@@ -20,6 +20,7 @@ enable_language(CUDA)
     CUDA::cudart 
     CUDA::cuda_driver 
     CUDA::nvrtc
+    finite_difference
   )
 endif()
 

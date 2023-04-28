@@ -1,0 +1,14 @@
+project(CC3DFD LANGUAGES C C++)
+SET(SRCS 
+FDLogger.cpp
+)
+
+if(${CMAKE_SYSTEM_NAME} STREQUAL Windows)
+   ADD_STATIC_LIBRARY(FDLogger ${SRCS} )
+else()
+   ADD_SHARED_LIBRARY(FDLogger ${SRCS} )
+endif()
+
+INSTALL_FILES(/${COMPUCELL3D_INSTALL_INCLUDE_DIR}/FDLogger .h
+FDLogger
+)
